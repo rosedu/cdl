@@ -1,13 +1,28 @@
 /*-----------------------
       Main elements
 -----------------------*/
-a {
+a, a:hover, a:link, a:visited {
   color: #90918D;
+  text-decoration: none;
+}
+.col-sm-11 {
+  margin-left: 80px;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #90918D;
+.unselectable {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.section-heading {
+    border-top: 80px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 /*-----------------------
@@ -16,7 +31,7 @@ a:hover {
 #menu {
   position: fixed;
   width: 100%;
-  height: 95px;
+  height: 80px;
   top: 0px;
   z-index: 10;
   padding-top: 10px;
@@ -24,17 +39,17 @@ a:hover {
 }
 
 #menu #logo img {
-  width: 85px;
-  height: 85px;
-  margin-top: 2px;
-  margin-left: 140px;
+  width: 100px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 95px;
 }
 
 #main-menu ul {
   list-style: none;
   text-transform: lowercase;
-  margin-top: 25px;
-  margin-right: 20px;
+  margin-top: 15px;
+  margin-right: 60px;
 }
 
 #main-menu ul li {
@@ -92,7 +107,7 @@ a:hover {
     Box with picture
 ------------------------*/
 #content .picture-box {
-  background: url(../images/cdl_team.png) 50% 0 no-repeat fixed;
+  background: url(../images/creative_common/picture_box.jpeg) 50% 0 no-repeat fixed;
   background-position: center;
   background-size: cover;
 }
@@ -117,6 +132,39 @@ a:hover {
 
 #content  .picture-box p {
   font-size: 24px;
+  color: #e7e7e7;
+  line-height: 30px;
+  font-style: italic;
+}
+
+/*------------------------
+    Form box
+------------------------*/
+#content .form-box {
+  background: url(../images/creative_common/desk.jpeg) 50% 0 no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#content .form-box .form-canvas {
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+}
+
+#content .form-box .container {
+  padding: 120px 0;
+  text-align: center;
+}
+
+#content .form-box h1 {
+  font-size: 48px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+#content  .form-box p {
+  font-size: 20px;
   color: #e7e7e7;
   line-height: 30px;
   font-style: italic;

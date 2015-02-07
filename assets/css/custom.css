@@ -1,0 +1,21 @@
+/*-----------------------
+      Main elements
+-----------------------*/
+a, a:hover, a:link, a:visited {
+  color: #FF9800;
+  text-decoration: none;
+}
+
+/*-----------------------
+   Main menu & content
+-----------------------*/
+#menu #logo img {
+  width: 180px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 95px;
+}
+
+#content .section-title {
+  color: #FF9800;
+}

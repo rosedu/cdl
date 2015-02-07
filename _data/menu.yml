@@ -1,0 +1,10 @@
+# Main menu configurable items.
+#
+- logo: assets/images/cdl_logo.png
+  title: CDL
+  section_one_id: about
+  section_one_name: About
+  section_two_id: projects
+  section_two_name: Projects
+  section_three_id: apply
+  section_three_name: Apply
