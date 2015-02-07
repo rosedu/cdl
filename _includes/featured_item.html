@@ -1,11 +1,11 @@
-<article class="feature-col col-md-4">
+ <article class="feature-col col-md-4">
   <a href="" onclick="populate_and_open_modal(event, '#featured-modal-content-{{ item.id }}');" class="thumbnail linked">
     <div class="image-container">
       <img src="{{ item.image }}" class="lazy item-thumbnail" alt="Lorem Ipsum">
     </div>
     <div class="caption">
       <h5>{{ item.title }}</h5>
-      <p>{{ item.description }}</p>
+      <p>{{ item.keywords }}</p>
     </div>
   </a><!-- /thumbnail -->
 
@@ -18,7 +18,14 @@
           <h1>{{ item.title }}</h1>
         </div>
         <div class="modal-body">
-          <p>{{ item.content }}<br/></p>
+          <p>
+            <b>URL:</b> <a href="{{ item.url }}">{{ item.url }}</a><br><br>
+            <b>Repository and Development:</b> <a href="{{ item.repo }}">{{ item.repo }}</a><br><br>
+            <b>Descriere:</b> {{ item.description }}<br><br>
+            <b>Tehnologii folosite:</b> {{ item.used-technologies }}<br><br>
+            <b>Cunoștințe minime:</b> {{ item.requirements }}<br><br>
+            <b>Mentor:</b> {{ item.mentor }}<br/>
+          </p>
         </div>
       </div>
     </div>

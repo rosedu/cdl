@@ -1,43 +1,158 @@
 # Define featured type elements data.
 # Each item has the following structure:
 # - title: string
-#   description: short text
-#   content: text
+#   keywords: short text
+#   description: text
 #   image: url/path to an image
 #   id: unique number
 #
-- title: Title one
-  description: Description for title one
-  content: Content for title one
-  image: assets/images/creative_common/desk.jpeg
+- title: Browsercast
+  keywords: front end, logica aplicației
+  url:
+  repo: https://github.com/ReDEnergy/Browsercast
+  description: Browsercast este un editor web pentru prezentări HTML5 ce oferă suport pentru 
+            sincronizare voice-over și posibilitatea de exportare într-un format portabil.
+            Browsercast oferă suport complet de playback - play/stop/pause/resume/ pastrand în
+            același timp syncronizarea perfectă ditre slide-uri și audio.
+            Browsercast reprezinta o alternativă pentru îregistrările video de tipul screencast
+            datorită dimensiunilor extrem de reduse de numai 10-20 MB (text/imagini/audio). 
+            Alte beneficii considerabile conținut web independent, indexabil și stilizabil,
+            portabilitate, interactivitate.
+  used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
+  requirements: JavaScript (începator)
+  mentor: Gabriel Ivănică
+  image: assets/images/projects/browsercast.png
   id: 1
 
-- title: Title two
-  description: Description for title two
-  content: Content for title two
-  image: assets/images/creative_common/tools.jpeg
+- title: CodeCombat
+  keywords: JavaScript, CoffeeScript
+  url: http://codecombat.com/
+  repo: https://github.com/codecombat/codecombat
+  description: CodeCombat este un browser-based game care își propune să învețe oameni, de orice
+              vârstă și nivel de pregătire, cum să programeze prin intermediul unui joc.
+              Proiectul din cadrul CDL își propune implementarea de QuadTrees pentru game engine-ul 
+              jocului în scopul îmbunătățirii performanței.
+  used-technologies: JavaScript, CoffeeScript
+  requirements: C++/Java, Programare Orientata pe Obiecte
+  image: assets/images/projects/codecombat.png
+  mentor: Alexandru Răzvan Căciulescu
   id: 2
 
-- title: Title three
-  description: Description for title three
-  content: Content for title three
-  image: assets/images/creative_common/cameras.jpeg
+- title: Marble
+  keywords: C++, Qt, KML
+  url: https://marble.kde.org/
+  repo: https://techbase.kde.org/Projects/Marble#Compiling_Marble
+  description: Marble este o aplicație construită în jurul unui glob virtual care le permite userilor să aleagă 
+            între mai multe planete și tipuri de hărți (istorice, politice, OpenStreetMap etc.) pentru o
+            vizualizare 3D a acestora. La acestea se adaugă și un număr considerabil de feature-uri și 
+            plugin-uri menite să extindă capacitățile de utilizare ale acesteia. Dintre acestea, menționez
+            Interactive Tours, un feature destul de recent care permite crearea/exportarea/importarea unor
+            tururi virtuale ale planetei și Annotations Plugin, un plugin care permite adăugarea de placemark-uri,
+            poligoane, path-uri pe suprafața planetelor, precum și exportarea sau importarea lor în format KML.
+            În timpul cursurilor se va lucra la diverse taskuri legate de aceste features.
+  used-technologies: C++, Qt, KML
+  requirements: C++/Java , Programare Orientată pe Obiecte
+  image: assets/images/projects/marble.png
+  mentor: Călin Cruceru
   id: 3
 
-- title: Title four
-  description: Description for title four
-  content: Content for title four
-  image: assets/images/creative_common/cameras.jpeg
+- title: Mixxx
+  keywords: C++, Qt
+  url: http://www.mixxx.org/
+  repo: https://github.com/mixxxdj/mixxx
+  description: Mixxx este un program open source pentru mixat folosit atât de DJ profesioniști,
+            cât și de amatori. Rivalizează cu programe renumite, cum ar fi VirtualDJ, Traktor sau Serato.
+            Este scris în C++ și folosește Qt pentru GUI.
+            În cadrul CDL se poate lucra atât la GUI, cât și la backend (effects framework, engine etc.).
+            Veți învăța lucruri interesante despre procesarea audio în timp real.
+  used-technologies: C++, Qt
+  requirements: C++, Programare Orientată pe Obiecte (începător)
+  image: assets/images/projects/mixxx.png
+  mentor: Nicu Bădescu
   id: 4
 
-- title: Title five
-  description: Description for title five
-  content: Content for title five
-  image: assets/images/creative_common/desk.jpeg
+- title: WoUSO
+  keywords: Django, Python
+  url: http://wouso.rosedu.org/
+  repo: https://github.com/rosedu/wouso/
+  description: World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
+            O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
+            World of USO este dezvoltat in Django. Informații despre Django găsiți la - https://docs.djangoproject.com/en/dev/intro/overview/
+            De ce WoUSO?
+            Vă veți îmbunătăți skillurile de programare dobândind cunoștinte despre Python, Django etc.
+            Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
+            Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
+            obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
+            problemelor ce au apărut în decursul ultimei ediții.
+  used-technologies: Django, Python
+  requirements: Python
+  image: assets/images/projects/wouso.png
+  mentor: Iulian Radu și Răzvan Deaconescu
   id: 5
 
-- title: Title six
-  description: Description for title six
-  content: Content for title six
-  image: assets/images/creative_common/tools.jpeg
+- title: Wyliodrin & libmraa
+  keywords: C/C++, CMake, embedded, Raspberry Pi
+  url: https://wyliodrin.com/ 
+  repo: https://github.com/intel-iot-devkit/mraa/ 
+  description: MRAA este o bibliotecă pentru controlul plăcilor de dezvoltare. Pentru moment este dezvoltată 
+              de Intel Co. și este disponibilă pentru plăcile Intel Galieo și Edison. Recent, s-a început lucrul 
+              la portarea ei pe Raspberry Pi, BeagleBone și Banana Pi. Noi ne vom ocupa de portarea ei pe
+              UDOO și Parallella. Importanța acestui proiect este dată de UPM. Acesta este o bibliotecă pentru
+              senzori care se bazează pe MRAA și care probabil va deveni un stanadard în domeniu.
+              Scopul final este integrarea aceastei biblioteci în cadrul serviciului Wyliodrin.
+  used-technologies:  C/C++, CMake, Swig
+  requirements: C/C++, Programare Orientată pe Obiecte(începător)
+  image: assets/images/projects/wyliodrin.png
+  mentor: Andrei Dinu, Alexandru Radovici și Ioana Culic
   id: 6
+
+- title: ROSEdu Events
+  keywords: HTML/CSS, Git, NodeJS, MongoDB, Express
+  url: http://events.rosedu.org/
+  repo: https://github.com/rosedu/events
+  description: ROSEdu Events este website-ul dedicat evenimentelor organizate de ROSEdu. Orice utilizator,
+            chiar dacă nu face parte din ROSEdu, poate să vizualizeze evenimentele trecute/viitoare, dar doar
+            cei cu drepturi administrative le pot crea/edita.
+            Principalul scop al proiectului este de a extinde opțiunile care sunt puse la dispoziție pe website,
+            de a imbunătăți UX/UI, de a se uni cu proiectul ROSEdu People, dar și multe altele.
+  used-technologies: MEAN stack (MongoDB + Express + NodeJs, fara AngularJs cel putin pentru moment), HTML/CSS, Git
+  requirements: 
+  image: assets/images/projects/rosedu_events.png
+  mentor: Vlad Fulgeanu
+  id: 7
+
+  # TODO: de introdus link-uri
+- title: State Machine Testing With QuickCheck
+  keywords: Haskell, SQL
+  repo: https://github.com/dserban/StateMachineTestingWithQuickCheck
+  description: În ultimii ani a avut loc o explozie a proiectelor open-source de tip database-engine,
+            și implicit o competiție acerbă între acestea, care să aibă feature-uri mai multe și mai 
+            sofisticate. Această goană după feature-uri a avut loc însă în detrimentul calității,
+            mai ales în zona NoSQL.
+            Proiectul pe care vi-l propun are ca obiectiv construirea, pornind de la framework-ul open-source 
+            QuickCheck[0], scris în Haskell, a unui instrument generic de testare care să permită găsirea
+            bug-urilor mai greu de depistat prin metode convenționale, în proiectele open-source menționate 
+            mai sus.
+            Propunerea de proiect se adresează celor cu o pasiune deosebită pentru programarea high-level,
+            sau celor interesați în mod special de limbajul Haskell.
+            Ideea de bază am descris-o într-o prezentare acum câteva luni, găsiți înregistrare video la [1],
+            slide-uri și cod la [2].
+  used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
+  requirements:
+  image: assets/images/projects/coming_soon.png
+  mentor: Dan Șerban
+  id: 8
+
+  # de rezolvat cu link-urile
+- title: MazeWars
+  keywords: Lua, Love2D
+  url:
+  repo:
+  description: Proiectul pe care îl propun este crearea unui joc de tip labirint, pe nivele, în care o bilă
+            se deplasează pe o tablă cu pereți și găuri, încercând să evite obstacolele și să arunce în afară
+            inamicii. Ideea pe care se bazează jocul - http://www.squidi.net/three/entry.php?id=187
+  used-technologies: Lua si ne vom folosi de motorul grafic Love2D.
+  requirements: C sau orice alt limbaj de programare
+  image: assets/images/projects/coming_soon.png
+  mentor: Mihai Brănescu
+  id: 9

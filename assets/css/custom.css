@@ -11,11 +11,35 @@ a, a:hover, a:link, a:visited {
 -----------------------*/
 #menu #logo img {
   width: 180px;
-  height: 60px;
-  margin-top: 5px;
+  height: 70px;
+  margin-top: -5px;
   margin-left: 95px;
 }
 
 #content .section-title {
   color: #FF9800;
+}
+
+/*------------------------
+    Box with picture
+------------------------*/
+#content .picture-box {
+  background: url(../images/cdl-team.jpg) 50% 0 no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#content .picture-box .picture-canvas {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/*------------------------
+    Form box
+------------------------*/
+#content .form-box {
+  background: url(../images/creative_common/aplicare.jpeg) 50% 0 no-repeat fixed;
+  background-position: center;
+  background-size: cover;
 }

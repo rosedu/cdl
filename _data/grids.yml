@@ -3,14 +3,14 @@
 # - title: string
 #   content: text
 #
-- title: Title one
-  content: Content for title one
+- title: Informații generale
+  content: Aflat la cea de-a 8-a ediție, Community and Development Lab este un curs de Open Source gratuit. Acesta se va desfășura în cadrul Universității POLITEHNICA din București pe parcursul a 9 săptămâni, primul curs având loc în weekend-ul 7-8 martie.
 
-- title: Title two
-  content: Content for title two
+- title: Misiune
+  content: Cursul își propune să ajute studenții aflați în primii ani de studiu din toate universitățile din București să facă prima lor contribuție în cadrul unui proiect open source și să-și formeze o impresie legată de ceea ce înseamnă dezvoltarea software în mediul real. Topic-urile acoperite de acest curs se întind de la studierea conceptelor specifice unor limbaje de programare (cum ar fi C++, Python), Object Oriented Programming, design patterns și până la prezentarea unor tool-uri de management puternice sau integrare în comunitate.
 
-- title: Title three
-  content: Content for title three
+- title: Prezentări tehnice și workshop-uri
+  content: Prezentările teoretice vor fi combinate cu workshop-uri astfel încât să îi ajute pe studenți să dobândească experiență tehnică, utilizându-se numeroase limbaje de programare și tool-uri open-source. În cadrul workshop-urilor, studenții vor dezvolta feature-uri cool la un anumit proiect open source, aceștia aflându-se mereu sub îndrumarea unui mentor cu experiență.
 
-- title: Title four
-  content: Content for title four
+- title: Prezentări non-tehnice
+  content: Vor fi ținute de invitați, lideri din industrie și comunitatea IT din Romania pe topicuri diferite precum cariere în software engineering, startups, technology, Google Summer Of Code etc.
