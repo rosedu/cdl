@@ -4,6 +4,7 @@
     <div class="text-content">
       <h5>{{ item.title }}</h5>
       <p>{{ item.content }}</p>
+      {% if item.extra_info %}<p><i>{{ item.extra_info }}</i></p>{% endif %}
     </div>
   </div>
 </div><!-- /grid-item -->
