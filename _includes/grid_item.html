@@ -2,9 +2,8 @@
 <div class="grid-item col-md-6">
   <div class="item-content clearfix">
     <div class="text-content">
-      <h5>{{ item.title }}</h5>
-      <p>{{ item.content }}</p>
-      {% if item.extra_info %}<p><i>{{ item.extra_info }}</i></p>{% endif %}
+      <h4>{{ item.title }}</h4>
+      <p>{{ item.content }} {% if item.extra_info %}<i><br>{{ item.extra_info }}</i>{% endif %}</p>
     </div>
   </div>
 </div><!-- /grid-item -->
