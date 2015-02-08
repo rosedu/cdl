@@ -54,3 +54,14 @@ a, a:hover, a:link, a:visited {
     list-style: none;
     font-size: 0.95em;
 }
+
+/*------------------------
+    Form box
+------------------------*/
+
+#content .form-box .extra_info {
+  font-size: 12px;
+  color: #e7e7e7;
+  line-height: 30px;
+  font-style: italic;
+}
