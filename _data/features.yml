@@ -1,9 +1,15 @@
 # Define featured type elements data.
 # Each item has the following structure:
-# - title: string
-#   keywords: short text
-#   description: text
-#   image: url/path to an image
+# - title: project title (string)
+#   keywords: a few keywords about the project (string)
+#   url: a link to the project website
+#   repo: a link to the project repository (url)
+#   description: project description (text)
+#   used-technologies: a list of technologies used in project development (string)
+#   requirements: requirements needed to apply (string)
+#   extra-link-k: additional links (url)
+#   image: url/path to an image associated with the project
+#   mentor: mentor of the project (string)
 #   id: unique number
 #
 - title: Browsercast
@@ -30,7 +36,7 @@
   description: CodeCombat este un browser-based game care își propune să învețe oameni, de orice
               vârstă și nivel de pregătire, cum să programeze prin intermediul unui joc.
               Proiectul din cadrul CDL își propune implementarea de QuadTrees pentru game engine-ul 
-              jocului în scopul îmbunătățirii performanței. Mai multe la [0].
+              jocului în scopul îmbunătățirii performanței. Mai multe în secțiunea de link-uri utile.
   used-technologies: JavaScript, CoffeeScript
   requirements: C++/Java, Programare Orientata pe Obiecte
   extra-link0: https://github.com/codecombat/codecombat/issues/358
@@ -61,7 +67,7 @@
   repo: https://github.com/BranescuMihai/MazeWars
   description: Proiectul pe care îl propun este crearea unui joc de tip labirint, pe nivele, în care o bilă
             se deplasează pe o tablă cu pereți și găuri, încercând să evite obstacolele și să arunce în afară
-            inamicii. Ideea pe care se bazează jocul http://www.squidi.net/three/entry.php?id=187
+            inamicii. Ideea pe care se bazează jocul o puteți găsi în secțiunea link-uri utile.
   used-technologies: Lua si ne vom folosi de motorul grafic Love2D.
   requirements: C sau orice alt limbaj de programare
   extra-link0: http://www.squidi.net/three/entry.php?id=187
@@ -127,7 +133,7 @@
   repo: https://github.com/rosedu/wouso/
   description: World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
             O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
-            World of USO este dezvoltat in Django. Informații despre Django găsiți la [0].
+            World of USO este dezvoltat in Django. Informații despre Django găsiți în secțiunea de link-uri utile.
             De ce WoUSO?
             Vă veți îmbunătăți skillurile de programare dobândind cunoștinte despre Python, Django etc.
             Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
@@ -135,7 +141,7 @@
             obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
             problemelor ce au apărut în decursul ultimei ediții.
   used-technologies: Django, Python
-  requirements: Python, Cunoștinte de bază legate de programare
+  requirements: Python, cunoștinte de bază legate de programare
   extra-link0: https://docs.djangoproject.com/en/dev/intro/overview/
   image: assets/images/projects/wouso.png
   mentor: Răzvan Deaconescu și Iulian Radu
