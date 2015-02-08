@@ -2,6 +2,7 @@
 # Each item has the following structure:
 # - title: string
 #   content: text
+#   extra_info: additional information (text)
 #
 - title: Informații generale
   content: "Aflat la cea de-a 8-a ediție, Cursul de Dezvoltare Liberă este un curs/laborator alternativ, cu o
