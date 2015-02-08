@@ -8,7 +8,6 @@
 #
 - title: Browsercast
   keywords: front end, logica aplicației
-  url:
   repo: https://github.com/ReDEnergy/Browsercast
   description: Browsercast este un editor web pentru prezentări HTML5 ce oferă suport pentru 
             sincronizare voice-over și posibilitatea de exportare într-un format portabil.
@@ -31,9 +30,10 @@
   description: CodeCombat este un browser-based game care își propune să învețe oameni, de orice
               vârstă și nivel de pregătire, cum să programeze prin intermediul unui joc.
               Proiectul din cadrul CDL își propune implementarea de QuadTrees pentru game engine-ul 
-              jocului în scopul îmbunătățirii performanței.
+              jocului în scopul îmbunătățirii performanței. Mai multe la [0].
   used-technologies: JavaScript, CoffeeScript
   requirements: C++/Java, Programare Orientata pe Obiecte
+  extra-link0: https://github.com/codecombat/codecombat/issues/358
   image: assets/images/projects/codecombat.png
   mentor: Alexandru Răzvan Căciulescu
   id: 2
@@ -56,6 +56,19 @@
   mentor: Călin Cruceru
   id: 3
 
+- title: MazeWars
+  keywords: Lua, Love2D
+  repo: https://github.com/BranescuMihai/MazeWars
+  description: Proiectul pe care îl propun este crearea unui joc de tip labirint, pe nivele, în care o bilă
+            se deplasează pe o tablă cu pereți și găuri, încercând să evite obstacolele și să arunce în afară
+            inamicii. Ideea pe care se bazează jocul http://www.squidi.net/three/entry.php?id=187
+  used-technologies: Lua si ne vom folosi de motorul grafic Love2D.
+  requirements: C sau orice alt limbaj de programare
+  extra-link0: http://www.squidi.net/three/entry.php?id=187
+  image: assets/images/projects/mazewars.jpg
+  mentor: Mihai Brănescu
+  id: 4
+
 - title: Mixxx
   keywords: C++, Qt
   url: http://www.mixxx.org/
@@ -69,42 +82,7 @@
   requirements: C++, Programare Orientată pe Obiecte (începător)
   image: assets/images/projects/mixxx.png
   mentor: Nicu Bădescu
-  id: 4
-
-- title: WoUSO
-  keywords: Django, Python
-  url: http://wouso.rosedu.org/
-  repo: https://github.com/rosedu/wouso/
-  description: World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
-            O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
-            World of USO este dezvoltat in Django. Informații despre Django găsiți la - https://docs.djangoproject.com/en/dev/intro/overview/
-            De ce WoUSO?
-            Vă veți îmbunătăți skillurile de programare dobândind cunoștinte despre Python, Django etc.
-            Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
-            Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
-            obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
-            problemelor ce au apărut în decursul ultimei ediții.
-  used-technologies: Django, Python
-  requirements: Python
-  image: assets/images/projects/wouso.png
-  mentor: Iulian Radu și Răzvan Deaconescu
   id: 5
-
-- title: Wyliodrin & libmraa
-  keywords: C/C++, CMake, embedded, Raspberry Pi
-  url: https://wyliodrin.com/ 
-  repo: https://github.com/intel-iot-devkit/mraa/ 
-  description: MRAA este o bibliotecă pentru controlul plăcilor de dezvoltare. Pentru moment este dezvoltată 
-              de Intel Co. și este disponibilă pentru plăcile Intel Galieo și Edison. Recent, s-a început lucrul 
-              la portarea ei pe Raspberry Pi, BeagleBone și Banana Pi. Noi ne vom ocupa de portarea ei pe
-              UDOO și Parallella. Importanța acestui proiect este dată de UPM. Acesta este o bibliotecă pentru
-              senzori care se bazează pe MRAA și care probabil va deveni un stanadard în domeniu.
-              Scopul final este integrarea aceastei biblioteci în cadrul serviciului Wyliodrin.
-  used-technologies:  C/C++, CMake, Swig
-  requirements: C/C++, Programare Orientată pe Obiecte(începător)
-  image: assets/images/projects/wyliodrin.png
-  mentor: Andrei Dinu, Alexandru Radovici și Ioana Culic
-  id: 6
 
 - title: ROSEdu Events
   keywords: HTML/CSS, Git, NodeJS, MongoDB, Express
@@ -116,12 +94,10 @@
             Principalul scop al proiectului este de a extinde opțiunile care sunt puse la dispoziție pe website,
             de a imbunătăți UX/UI, de a se uni cu proiectul ROSEdu People, dar și multe altele.
   used-technologies: MEAN stack (MongoDB + Express + NodeJs, fara AngularJs cel putin pentru moment), HTML/CSS, Git
-  requirements: 
-  image: assets/images/projects/rosedu_events.png
+  image: assets/images/projects/events.png
   mentor: Vlad Fulgeanu
-  id: 7
+  id: 6
 
-  # TODO: de introdus link-uri
 - title: State Machine Testing With QuickCheck
   keywords: Haskell, SQL
   repo: https://github.com/dserban/StateMachineTestingWithQuickCheck
@@ -138,21 +114,46 @@
             Ideea de bază am descris-o într-o prezentare acum câteva luni, găsiți înregistrare video la [1],
             slide-uri și cod la [2].
   used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
-  requirements:
-  image: assets/images/projects/coming_soon.png
+  extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
+  extra-link1: https://www.youtube.com/watch?v=RneA7Tt3I4U
+  extra-link2: https://github.com/dserban/StateMachineTestingWithQuickCheck
+  image: assets/images/projects/github.jpg
   mentor: Dan Șerban
+  id: 7
+
+- title: WoUSO
+  keywords: Django, Python
+  url: http://wouso.rosedu.org/
+  repo: https://github.com/rosedu/wouso/
+  description: World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
+            O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
+            World of USO este dezvoltat in Django. Informații despre Django găsiți la [0].
+            De ce WoUSO?
+            Vă veți îmbunătăți skillurile de programare dobândind cunoștinte despre Python, Django etc.
+            Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
+            Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
+            obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
+            problemelor ce au apărut în decursul ultimei ediții.
+  used-technologies: Django, Python
+  requirements: Python, Cunoștinte de bază legate de programare
+  extra-link0: https://docs.djangoproject.com/en/dev/intro/overview/
+  image: assets/images/projects/wouso.png
+  mentor: Răzvan Deaconescu și Iulian Radu
   id: 8
 
-  # de rezolvat cu link-urile
-- title: MazeWars
-  keywords: Lua, Love2D
-  url:
-  repo:
-  description: Proiectul pe care îl propun este crearea unui joc de tip labirint, pe nivele, în care o bilă
-            se deplasează pe o tablă cu pereți și găuri, încercând să evite obstacolele și să arunce în afară
-            inamicii. Ideea pe care se bazează jocul - http://www.squidi.net/three/entry.php?id=187
-  used-technologies: Lua si ne vom folosi de motorul grafic Love2D.
-  requirements: C sau orice alt limbaj de programare
-  image: assets/images/projects/coming_soon.png
-  mentor: Mihai Brănescu
+- title: Wyliodrin & libmraa
+  keywords: C/C++, CMake, embedded, Raspberry Pi
+  url: https://wyliodrin.com/ 
+  repo: https://github.com/intel-iot-devkit/mraa/ 
+  description: MRAA este o bibliotecă pentru controlul plăcilor de dezvoltare. Pentru moment este dezvoltată 
+              de Intel Co. și este disponibilă pentru plăcile Intel Galieo și Edison. Recent, s-a început lucrul 
+              la portarea ei pe Raspberry Pi, BeagleBone și Banana Pi. Noi ne vom ocupa de portarea ei pe
+              UDOO și Parallella. Importanța acestui proiect este dată de UPM. Acesta este o bibliotecă pentru
+              senzori care se bazează pe MRAA și care probabil va deveni un standard în domeniu.
+              Scopul final este integrarea acestei biblioteci în cadrul serviciului Wyliodrin.
+  used-technologies:  C/C++, CMake, Swig
+  requirements: C/C++, Programare Orientată pe Obiecte(începător)
+  extra-link0: https://github.com/Wyliodrin/libwyliodrin/
+  image: assets/images/projects/wyliodrin.png
+  mentor: Ioana Culic, Andrei Dinu și Alexandru Radovici
   id: 9

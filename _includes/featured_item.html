@@ -19,12 +19,16 @@
         </div>
         <div class="modal-body">
           <p>
-            <b>URL:</b> <a href="{{ item.url }}">{{ item.url }}</a><br><br>
-            <b>Repository and Development:</b> <a href="{{ item.repo }}">{{ item.repo }}</a><br><br>
-            <b>Descriere:</b> {{ item.description }}<br><br>
-            <b>Tehnologii folosite:</b> {{ item.used-technologies }}<br><br>
-            <b>Cunoștințe minime:</b> {{ item.requirements }}<br><br>
-            <b>Mentor:</b> {{ item.mentor }}<br/>
+            {% if item.url %}<b>URL:</b> <a href="{{ item.url }}">{{ item.url }}</a><br><br>{% endif %}
+            {% if item.repo %}<b>Repository and Development:</b> <a href="{{ item.repo }}">{{ item.repo }}</a><br><br>{% endif %}
+            {% if item.description %}<b>Descriere:</b> {{ item.description }}<br><br>{% endif %}
+            {% if item.used-technologies %}<b>Tehnologii folosite:</b> {{ item.used-technologies }}<br><br>{% endif %}
+            {% if item.requirements %}<b>Cunoștințe minime:</b> {{ item.requirements }}<br><br>{% endif %}
+            {% if item.extra-link0 %}<b>Link-uri utile:</b><br><a href="{{ item.extra-link0 }}">{{ item.extra-link0 }}</a><br>{% endif %}
+            {% if item.extra-link1 %}<a href="{{ item.extra-link1 }}">{{ item.extra-link1 }}</a><br>
+              {% elsif item.extra-link0 %}<br>{% endif %}
+            {% if item.extra-link2 %}<a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a><br><br>{% endif %}
+            {% if item.mentor %}<b>Mentor:</b> {{ item.mentor }}<br/>{% endif %}
           </p>
         </div>
       </div>
