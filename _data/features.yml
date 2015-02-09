@@ -129,7 +129,7 @@
 
 - title: WoUSO
   keywords: Django, Python
-  url: http://wouso.rosedu.org/
+  url: https://wouso.cs.pub.ro
   repo: https://github.com/rosedu/wouso/
   description: World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
             O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
