@@ -18,10 +18,10 @@
   description: Browsercast este un editor web pentru prezentări HTML5 ce oferă suport pentru 
             sincronizare voice-over și posibilitatea de exportare într-un format portabil.
             Browsercast oferă suport complet de playback - play/stop/pause/resume/ pastrand în
-            același timp syncronizarea perfectă ditre slide-uri și audio.
-            Browsercast reprezinta o alternativă pentru îregistrările video de tipul screencast
+            același timp syncronizarea perfectă dintre slide-uri și audio.
+            Browsercast reprezintă o alternativă pentru înregistrările video de tipul screencast
             datorită dimensiunilor extrem de reduse de numai 10-20 MB (text/imagini/audio). 
-            Alte beneficii considerabile conținut web independent, indexabil și stilizabil,
+            Alte beneficii considerabile - conținut web independent, indexabil și stilizabil,
             portabilitate, interactivitate.
   used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
   requirements: JavaScript (începator)
@@ -98,7 +98,7 @@
             chiar dacă nu face parte din ROSEdu, poate să vizualizeze evenimentele trecute/viitoare, dar doar
             cei cu drepturi administrative le pot crea/edita.
             Principalul scop al proiectului este de a extinde opțiunile care sunt puse la dispoziție pe website,
-            de a imbunătăți UX/UI, de a se uni cu proiectul ROSEdu People, dar și multe altele.
+            de a îmbunătăți UX/UI, de a se uni cu proiectul ROSEdu People, dar și multe altele.
   used-technologies: MEAN stack (MongoDB + Express + NodeJs, fara AngularJs cel putin pentru moment), HTML/CSS, Git
   requirements: JavaScript(începător), HTML/CSS
   image: assets/images/projects/events.png
@@ -120,7 +120,8 @@
             sau celor interesați în mod special de limbajul Haskell.
             Ideea de bază am descris-o într-o prezentare acum câteva luni, găsiți înregistrare video la [1],
             slide-uri și cod la [2].
-  used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
+  used-technologies: Haskell
+  requirements: Algoritmică
   extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
   extra-link1: https://www.youtube.com/watch?v=RneA7Tt3I4U
   extra-link2: https://github.com/dserban/StateMachineTestingWithQuickCheck
@@ -136,7 +137,7 @@
             O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
             World of USO este dezvoltat in Django. Informații despre Django găsiți în secțiunea de link-uri utile.
             De ce WoUSO?
-            Vă veți îmbunătăți skillurile de programare dobândind cunoștinte despre Python, Django etc.
+            Vă veți îmbunătăți skill-urile de programare dobândind cunoștinte despre Python, Django etc.
             Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
             Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
             obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
