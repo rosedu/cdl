@@ -38,7 +38,7 @@
               Proiectul din cadrul CDL își propune implementarea de QuadTrees pentru game engine-ul 
               jocului în scopul îmbunătățirii performanței. Mai multe în secțiunea de link-uri utile.
   used-technologies: JavaScript, CoffeeScript
-  requirements: C++/Java, Programare Orientata pe Obiecte
+  requirements: C++/Java, Programare Orientată pe Obiecte
   extra-link0: https://github.com/codecombat/codecombat/issues/358
   image: assets/images/projects/codecombat.png
   mentor: Alexandru Răzvan Căciulescu
@@ -124,7 +124,7 @@
   extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
   extra-link1: https://www.youtube.com/watch?v=RneA7Tt3I4U
   extra-link2: https://github.com/dserban/StateMachineTestingWithQuickCheck
-  image: assets/images/projects/github.jpg
+  image: assets/images/projects/lambda_logo_small.png
   mentor: Dan Șerban
   id: 7
 
@@ -142,7 +142,7 @@
             obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
             problemelor ce au apărut în decursul ultimei ediții.
   used-technologies: Django, Python
-  requirements: Python, cunoștinte de bază legate de programare
+  requirements: Python, cunoștințe de bază legate de programare
   extra-link0: https://docs.djangoproject.com/en/dev/intro/overview/
   image: assets/images/projects/wouso.png
   mentor: Răzvan Deaconescu și Iulian Radu

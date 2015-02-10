@@ -24,10 +24,10 @@
             {% if item.description %}<b>Descriere:</b> {{ item.description }}<br><br>{% endif %}
             {% if item.used-technologies %}<b>Tehnologii folosite:</b> {{ item.used-technologies }}<br><br>{% endif %}
             {% if item.requirements %}<b>Cunoștințe minime:</b> {{ item.requirements }}<br><br>{% endif %}
-            {% if item.extra-link0 %}<b>Link-uri utile:</b><br><a href="{{ item.extra-link0 }}">{{ item.extra-link0 }}</a><br>{% endif %}
-            {% if item.extra-link1 %}<a href="{{ item.extra-link1 }}">{{ item.extra-link1 }}</a><br>
+            {% if item.extra-link0 %}<b>Link-uri utile:</b><br>[0]: <a href="{{ item.extra-link0 }}">{{ item.extra-link0 }}</a><br>{% endif %}
+            {% if item.extra-link1 %}[1]: <a href="{{ item.extra-link1 }}">{{ item.extra-link1 }}</a><br>
               {% elsif item.extra-link0 %}<br>{% endif %}
-            {% if item.extra-link2 %}<a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a><br><br>{% endif %}
+            {% if item.extra-link2 %}[2]: <a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a><br><br>{% endif %}
             {% if item.mentor %}<b>Mentor:</b> {{ item.mentor }}<br/>{% endif %}
           </p>
         </div>
