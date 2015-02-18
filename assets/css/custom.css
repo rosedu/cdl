@@ -28,8 +28,6 @@ a, a:hover, a:link, a:visited {
   background-position: center;
   background-size: cover;
   margin-top: 1%;
-  /*padding-bottom: 10%;
-  padding-top: 10%;*/
 }
 
 #content .picture-box .picture-canvas {
@@ -65,7 +63,6 @@ a, a:hover, a:link, a:visited {
     padding: 0;
     list-style: none;
     font-size: 0.95em;
-    /*margin-top: 5%;*/
 }
 
 /*------------------------
