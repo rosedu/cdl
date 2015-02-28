@@ -171,6 +171,30 @@ a, a:hover, a:link, a:visited {
 }
 
 /*------------------------
+      Editions
+------------------------*/
+#content .editions {
+  background-position: center;
+  background-size: cover;
+}
+
+#content .editions .container {
+  padding: 120px 0;
+  text-align: center;
+}
+
+#content .editions .row-centered {
+  text-align: center;
+}
+
+#content .editions h1 {
+  font-size: 48px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+/*------------------------
         Grid
 ------------------------*/
 #content .grid {
