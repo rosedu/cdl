@@ -1,0 +1,16 @@
+# Define form type elements data.
+# It has the following structure:
+# - title: string
+#   url: URL to edition site
+#
+- title: Editia ETTI 2014
+  url: http://cdl.rosedu.org/etti-2014
+
+- title: Editia Extended 2014
+  url: http://cdl.rosedu.org/2014
+
+- title: Editia Primavara 2013
+  url: http://cdl.rosedu.org/2013
+
+- title: Editia Unibuc 2013
+  url: http://cdl.rosedu.org/unibuc-2013
