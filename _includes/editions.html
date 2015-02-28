@@ -6,7 +6,7 @@
         {% for item in site.data.editions %}
         <div class="col-xs-3 col-centered">
           <h1 class="section-title">
-            <a class="btn btn-default btn-lg" href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+            <a class="btn btn-default btn-lg" href="{{ site.url }}/{{ item.url }}" target="_blank">{{ item.title }}</a>
           </h1>
         </div>
       {% endfor %}

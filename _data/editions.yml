@@ -4,13 +4,13 @@
 #   url: URL to edition site
 #
 - title: Editia ETTI 2014
-  url: http://cdl.rosedu.org/etti-2014
+  url: editions/etti_2014
 
 - title: Editia Extended 2014
-  url: http://cdl.rosedu.org/2014
+  url: editions/extended_2014
 
 - title: Editia Primavara 2013
-  url: http://cdl.rosedu.org/2013
+  url: editions/spring_2013
 
 - title: Editia Unibuc 2013
-  url: http://cdl.rosedu.org/unibuc-2013
+  url: editions/unibuc_2013
