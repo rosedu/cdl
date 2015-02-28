@@ -3,14 +3,14 @@
 # - title: string
 #   url: URL to edition site
 #
-- title: Editia ETTI 2014
+- title: ETTI 2014
   url: editions/etti_2014
 
-- title: Editia Extended 2014
+- title: Extended 2014
   url: editions/extended_2014
 
-- title: Editia Primavara 2013
+- title: Primăvară 2013
   url: editions/spring_2013
 
-- title: Editia Unibuc 2013
+- title: Unibuc 2013
   url: editions/unibuc_2013
