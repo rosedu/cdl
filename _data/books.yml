@@ -4,32 +4,97 @@
 #   content: text
 #   id: unique number
 #
-- title: În curând
+- title: Alexandru Cosmina-Valentina
   content: Content for title one
   image: assets/images/creative_common/person.jpeg
   id: 1
 
-- title: În curând
+- title: Brînzea Răzvan-Ștefan
   content: Content for title two
   image: assets/images/creative_common/person.jpeg
   id: 2
 
-- title: În curând
+- title: Cernat Cătălin Ștefan
   content: Content for title three
   image: assets/images/creative_common/person.jpeg
   id: 3
 
-- title: În curând
+- title: Chițu Răzvan-Mihai
   content: Content for title four
   image: assets/images/creative_common/person.jpeg
   id: 4
 
-- title: În curând
+- title: Cîmpeau Vlăduț-Alexandru
   content: Content for title five
   image: assets/images/creative_common/person.jpeg
   id: 5
 
-- title: În curând
+- title: Coteț Teodor Mihai
   content: Content for title six
   image: assets/images/creative_common/person.jpeg
   id: 6
+
+- title: Drăgan Relu
+  content: Content for title seven
+  image: assets/images/creative_common/person.jpeg
+  id: 7
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 8
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 9
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 10
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 11
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 12
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 13
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 14
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 15
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 16
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 17
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 18
+
+- title: Elisei Alexandru
+  content: Content for title eight
+  image: assets/images/creative_common/person.jpeg
+  id: 19
