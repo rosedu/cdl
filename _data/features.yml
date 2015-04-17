@@ -125,6 +125,8 @@
   extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
   extra-link1: https://www.youtube.com/watch?v=RneA7Tt3I4U
   extra-link2: https://github.com/dserban/StateMachineTestingWithQuickCheck
+  extra-link3: git clone
+  extra-link4: https://github.com/dserban/FrontendWorkshopCDL.git
   image: assets/images/projects/lambda_logo_small.png
   mentor: Dan Șerban
   id: 7

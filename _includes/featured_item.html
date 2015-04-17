@@ -27,7 +27,10 @@
             {% if item.extra-link0 %}<b>Link-uri utile:</b><br>[0]: <a href="{{ item.extra-link0 }}">{{ item.extra-link0 }}</a><br>{% endif %}
             {% if item.extra-link1 %}[1]: <a href="{{ item.extra-link1 }}">{{ item.extra-link1 }}</a><br>
               {% elsif item.extra-link0 %}<br>{% endif %}
-            {% if item.extra-link2 %}[2]: <a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a><br><br>{% endif %}
+            {% if item.extra-link2 %}[2]: <a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a> <br><br>{% endif %}
+            {% if item.extra-link3 %}<b>Comenzi utile:</b> <i>{{item.extra-link3 }} </i>
+              {% if item.extra-link4 %} <a href="{{ item.extra-link4 }}">{{ item.extra-link4 }}</a> <br><br>{% endif %} 
+            {% endif %}
             {% if item.mentor %}<b>Mentor:</b> {{ item.mentor }}<br/>{% endif %}
           </p>
         </div>
