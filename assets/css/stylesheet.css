@@ -136,6 +136,29 @@ a, a:hover, a:link, a:visited {
   line-height: 30px;
   font-style: italic;
 }
+/*------------------------
+      Utils
+------------------------*/
+#content .utils {
+  background-position: center;
+  background-size: cover;
+}
+
+#content .utils .container {
+  padding: 50px 0;
+  /*text-align: center;*/
+}
+
+#content .utils .row-centered {
+  text-align: center;
+}
+
+#content .utils h1 {
+  line-height: 55px;
+  margin-bottom: 20px;
+  color: grey;
+  text-align: center;
+}
 
 /*------------------------
     Form box
