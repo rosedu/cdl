@@ -1,5 +1,5 @@
 <article class="row row-md-4">
-  {% for item in site.data.utils %}
+  {% for item in site.data.2015.utils %}
     <div class="col-xs-3 col-centered scrollable">
       <h1 class="section-title">
         <a class="btn btn-default btn-lg" href="" onclick="populate_and_open_modal(event, '#utils-modal-content-{{ item.id }}');" class="thumbnail linked" target="_blank">{{ item.title }} </a> </h1>
@@ -15,10 +15,10 @@
                 </div>
                 {% if item.description %}<i>{{ item.description }}</i>{% endif %}
               </div>
-              
+
               <div class="modal-body">
                 <p>
-                  
+
                   {% if item.command1 %}<b>Comenzi utile:</b><br><br>[1]: {{ item.command1 }}<br>{% endif %}
                 </p>
               </div>
