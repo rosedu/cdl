@@ -3,6 +3,10 @@
 # - title: string
 #   url: URL to edition site
 #
+
+- title: CDL 2015
+  url: editions/spring_2015
+
 - title: ETTI 2014
   url: editions/etti_2014
 
