@@ -1,0 +1,11 @@
+# Define form type elements data.
+# It has the following structure:
+# - title: string
+#   content: text
+#   url: URL to form
+#   url_title: button title for URL
+#
+- title: Formular de înscriere
+  content:
+  url: ''
+  url_title: Înscrie-te!
