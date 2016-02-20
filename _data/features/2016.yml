@@ -12,19 +12,11 @@
 #   mentor: mentor of the project (string)
 #   id: unique number
 #
-- title: Browsercast
-  keywords: front end, logica aplicației
-  repo: https://github.com/ReDEnergy/Browsercast
-  description: Browsercast este un editor web pentru prezentări HTML5 ce oferă suport pentru
-            sincronizare voice-over și posibilitatea de exportare într-un format portabil.
-            Browsercast oferă suport complet de playback - play/stop/pause/resume/ pastrand în
-            același timp syncronizarea perfectă dintre slide-uri și audio.
-            Browsercast reprezintă o alternativă pentru înregistrările video de tipul screencast
-            datorită dimensiunilor extrem de reduse de numai 10-20 MB (text/imagini/audio).
-            Alte beneficii considerabile - conținut web independent, indexabil și stilizabil,
-            portabilitate, interactivitate.
-  used-technologies: HTML5, CSS3, JavaScript(vanilla), Node.js, build system
-  requirements: JavaScript (începator)
-  mentor: Gabriel Ivănică
-  image: assets/images/projects/browsercast.png
+- title: Curând
+  keywords: cdl
+  repo: https://github.com/ROSEdu/cdl
+  description: TBA
+  used-technologies: TBA
+  mentor: TBA
+  image: assets/images/creative_common/project.jpg
   id: 1
