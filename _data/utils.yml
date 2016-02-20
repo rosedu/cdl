@@ -1,9 +1,0 @@
-# Define form type elements data.
-# It has the following structure:
-# - title: string
-#   id
-#
-- title: Cursul 6 - Frontend development
-  description: Aici puteți găsi materialele legate de prezentarea de Frontend development
-  command1: git clone https://github.com/dserban/FrontendWorkshopCDL.git
-  id: 1
