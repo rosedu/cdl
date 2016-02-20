@@ -5,8 +5,8 @@
       <h1 id="book" class="section-heading section-title">Cursanți</h1>
       <!-- book columns -->
       <section class="feature-columns row clearfix">
-        {% for item in site.data.books %}
-          {% include book_item.html %}
+        {% for item in site.data.books['2015'] %}
+          {% include 2015/book_item.html %}
         {% endfor %}
       </section><!-- /book-columns -->
     </div>

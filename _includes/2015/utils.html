@@ -3,7 +3,11 @@
   <div class="content-wrapper container clearfix">
     <h1 class="section-title scrollable"> Resurse utile pentru cursanți </h1>
     <section class="feature-columns row clearfix">
-        {% include utils_item.html %}
-    </section><!-- /feature-columns -->  
+      <article class="row row-md-4">
+        {% for item in site.data.utils['2015'] %}
+        {% include 2015/utils_item.html %}
+        {% endfor %}
+      </article>
+    </section><!-- /feature-columns -->
   </div>
 </article><!-- /utils -->
