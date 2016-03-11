@@ -46,9 +46,33 @@
 - title: MySQL Protobuf
   keywords: mysql c javascript
   repo: https://github.com/google/mysql-protobuf
-  description:  MySQL Protobuf is MySQL with support for Protocol Buffers. During CDL the team wants to implement protobuffering with MariaDB.
-  used-technologies: mysql, c++, c, javascript
+  description:  "MySQL Protobuf este un fork de MySQL care are suport nativ pentru Protocol
+                buffers[1] (protobufs). Avantajul pe care îl aduc protobufferele este faptul că
+                oferă o combinație ideala între flexibilitatea unui format precum JSON și
+                type checkingul din SQL. În general, atunci când se modifică definiția sau
+                se adaugă o coloană nouă într-un tabel MySQL, sunt rescrise toate liniile,
+                operație care poate dura foarte mult în funcție de dimensiunea tabelului.
+                Grupând coloanele care sunt mai predispuse la modificare într-o coloană de tip
+                protobuf, putem evita acest delay prin faptul că nu mai este necesară
+                modificarea întregii scheme a tabelului, ci doar definiția coloanei respective,
+                lucru care se poate face fără a rescrie vreun rând. Desigur, modificările
+                aduse definiției protobufului trebuie să fie compatibile cu definiția
+                anterioară.
+
+                Obiectivul principal pe care ni-l propunem este reimplementarea suportului
+                pentru protocol buffers în MariaDB. De asemenea, dacă timpul ne permite,
+                urmatoarele două obiective sunt:
+                  * adăugarea suportului pentru protobufs în bibliotecile client MySQL/MariaDB
+                  * posibilitatea indexării pe un sub-field dintr-o coloana de tip protobuf.
+
+                Codul este momentan 'work in progress', prin urmare pot fi îmbunătățite o
+                mulțime de lucruri și la implementarea curentă din MySQL. Mai multe detalii
+                despre feature-urile deja existente se găsesc pe Wiki-ul proiectului[2]."
+
+  used-technologies:  C++, Protocol Buffers, Bison/Flex, CMake, MySQL
   extra-link0: https://github.com/google/mysql-protobuf/wiki
+  extra-link1: [1] https://developers.google.com/protocol-buffers/
+  extra-link2: [2] https://github.com/google/mysql-protobuf/wiki
   mentor: Flavius Anton
   image: assets/images/projects/mysql_logo.jpg
   id: 3
