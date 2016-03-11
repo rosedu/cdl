@@ -14,7 +14,7 @@
 #
 
 - title: data.gov.ro
-  keywords: mysql c javascript
+  keywords: python, html
   repo: https://github.com/govro/datagovro
   description:  "Este punctul central de acces pentru seturile de date deschise livrate de
                 autoritățile și instituțiile administrației publice. Acesta rulează software-ul
@@ -25,7 +25,7 @@
   id: 1
 
 - title: Meta CGL
-  keywords: mysql c javascript
+  keywords: linux, python
   repo: https://git.yoctoproject.org/cgit/cgit.cgi/meta-cgl/
   description:  "Meta-cgl reprezinta prima distributie Linux open-source care oferă
                 support pentru standardul Carrier Grade Linux(CGL). Standardul CGL
@@ -44,9 +44,9 @@
   id: 2
 
 - title: MySQL Protobuf
-  keywords: mysql c javascript
+  keywords: mysql, c++
   repo: https://github.com/google/mysql-protobuf
-  description:  "MySQL Protobuf este un fork de MySQL care are suport nativ pentru Protocol
+  description: "MySQL Protobuf este un fork de MySQL care are suport nativ pentru Protocol
                 buffers[1] (protobufs). Avantajul pe care îl aduc protobufferele este faptul că
                 oferă o combinație ideala între flexibilitatea unui format precum JSON și
                 type checkingul din SQL. În general, atunci când se modifică definiția sau
@@ -58,21 +58,18 @@
                 lucru care se poate face fără a rescrie vreun rând. Desigur, modificările
                 aduse definiției protobufului trebuie să fie compatibile cu definiția
                 anterioară.
-
                 Obiectivul principal pe care ni-l propunem este reimplementarea suportului
                 pentru protocol buffers în MariaDB. De asemenea, dacă timpul ne permite,
                 urmatoarele două obiective sunt:
                   * adăugarea suportului pentru protobufs în bibliotecile client MySQL/MariaDB
                   * posibilitatea indexării pe un sub-field dintr-o coloana de tip protobuf.
-
                 Codul este momentan 'work in progress', prin urmare pot fi îmbunătățite o
                 mulțime de lucruri și la implementarea curentă din MySQL. Mai multe detalii
                 despre feature-urile deja existente se găsesc pe Wiki-ul proiectului[2]."
-
   used-technologies:  C++, Protocol Buffers, Bison/Flex, CMake, MySQL
   extra-link0: https://github.com/google/mysql-protobuf/wiki
-  extra-link1: [1] https://developers.google.com/protocol-buffers/
-  extra-link2: [2] https://github.com/google/mysql-protobuf/wiki
+  extra-link1: https://developers.google.com/protocol-buffers/
+  extra-link2: https://github.com/google/mysql-protobuf/wiki
   mentor: Flavius Anton
   image: assets/images/projects/mysql_logo.jpg
   id: 3
@@ -80,7 +77,7 @@
 - title: State Machine Testing With QuickCheck
   keywords: Haskell, SQL
   repo: https://github.com/dserban/StateMachineTestingWithQuickCheck
-  description: În ultimii ani a avut loc o explozie a proiectelor open-source de tip database-engine,
+  description: "În ultimii ani a avut loc o explozie a proiectelor open-source de tip database-engine,
             și implicit o competiție acerbă între acestea, care să aibă feature-uri mai multe și mai
             sofisticate. Această goană după feature-uri a avut loc însă în detrimentul calității,
             mai ales în zona NoSQL.
@@ -91,7 +88,7 @@
             Propunerea de proiect se adresează celor cu o pasiune deosebită pentru programarea high-level,
             sau celor interesați în mod special de limbajul Haskell.
             Ideea de bază am descris-o într-o prezentare acum câteva luni, găsiți înregistrare video la [1],
-            slide-uri și cod la [2].
+            slide-uri și cod la [2]."
   used-technologies: Haskell
   requirements: Algoritmică
   extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
