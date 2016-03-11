@@ -21,13 +21,13 @@
                 liber CKAN, cel mai folosit portal de date deschise."
   used-technologies: Python, HTML
   mentor: Alex Palcuie
-  image: assets/images/creative_common/project.jpg
+  image: assets/images/projects/data.gov.ro.png
   id: 1
 
 - title: Meta CGL
   keywords: mysql c javascript
   repo: https://git.yoctoproject.org/cgit/cgit.cgi/meta-cgl/
-  description:  "Meta-cgl reprezinta prima distributie Linux open-source care ofera
+  description:  "Meta-cgl reprezinta prima distributie Linux open-source care oferă
                 support pentru standardul Carrier Grade Linux(CGL). Standardul CGL
                 este representat sub forma unui document de specificatii care contine
                 un set de cerinte pe care fiecare vendor de distributie Linux le poate
