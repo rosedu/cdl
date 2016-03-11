@@ -38,6 +38,7 @@
                 Scopul proiectului este acela de a se pozitiona ca distributia Linux de
                 referinta pentru standardul CGL pentru a putea aduce un plus de valoare ecosistemului Linux."
   used-technologies: Linux, Python, shell scripting si Yocto Project
+  requirements: Linux, Python (beginner)
   mentor: Alexandru Văduva
   image: assets/images/projects/yocto-project-transp.png
   id: 2
@@ -47,6 +48,7 @@
   repo: https://github.com/google/mysql-protobuf
   description:  MySQL Protobuf is MySQL with support for Protocol Buffers. During CDL the team wants to implement protobuffering with MariaDB.
   used-technologies: mysql, c++, c, javascript
+  extra-link0: https://github.com/google/mysql-protobuf/wiki
   mentor: Flavius Anton
   image: assets/images/projects/mysql_logo.jpg
   id: 3
