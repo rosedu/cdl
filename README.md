@@ -2,7 +2,7 @@
 
  - Based on [sites template](https://github.com/rosedu/sites_template)
 
- ## How to
+## How to code
 
  To be able to archive an edition, each `_data`, `_includes` and `_layouts` directory
  is split in folders per edition. In the `editions` directory are the former editions
