@@ -7,20 +7,23 @@
   description: "Aici găsiți prezentările [1], [2] și la [3] cum să vă creați o cheia SSH
               și să o includeți în contul vostru de GitHub. Iar la [4] un tutorial interactiv,
               pe care vă recomand să-l parcurgeți. "
-  command1: http://slides.com/marianitadn/github#/
-  command2: http://slides.com/marianitadn/git#/
-  command3: https://help.github.com/articles/generating-an-ssh-key/
-  command4: https://try.github.io
+  commands:
+      - http://slides.com/marianitadn/github#/
+      - http://slides.com/marianitadn/git#/
+      - https://help.github.com/articles/generating-an-ssh-key/
+      - https://try.github.io
   id: 1
 
 - title: POO și Python
   description: "Prezentare o găsiți aici [1], iar la [2] este infrastructura de cod a
                 prezentări pe care recomandăm să o parcurgeți. "
-  command1:
-  command2: https://github.com/rosedu/cdl-presentations/tree/master/cursuri/python/faculty
+  commands:
+    - ''
+    - https://github.com/rosedu/cdl-presentations/tree/master/cursuri/python/faculty
   id: 2
 
 - title: Prgramare funcțională
   description: Curând
-  command1: ''
+  commands:
+    - ''
   id: 3

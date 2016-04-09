@@ -16,8 +16,15 @@
 
           <div class="modal-body">
             <p>
-
-              {% if item.command1 %}<b>Comenzi utile:</b><br><br>[1]: {{ item.command1 }}<br>{% endif %}
+              {% if item.commands %}
+                <b>Resurse utile:</b><br><br>
+                {% assign command_index = 1 %}
+                {% for command in item.commands %}
+                  [{{ command_index }}]: {{ command }}
+                  {% assign command_index = command_index |plus: 1 %}
+                <br>
+                {% endfor %}
+              {% endif %}
             </p>
           </div>
         </div>
