@@ -20,8 +20,8 @@
                 <b>Resurse utile:</b><br><br>
                 {% assign command_index = 1 %}
                 {% for command in item.commands %}
-                  [{{ command_index }}]: {{ command }}
-                  {% assign command_index = command_index |plus: 1 %}
+                  [{{ command_index }}]: <a href="{{ command }}" target="_blank">{{ command }}</a>
+                {% assign command_index = command_index |plus: 1 %}
                 <br>
                 {% endfor %}
               {% endif %}
