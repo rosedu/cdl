@@ -5,10 +5,11 @@
 #   extra_info: additional information (text)
 #
 - title: Informații generale
-  content: "Aflat la cea de-a 9-a ediție, Cursul de Dezvoltare Liberă este un curs/laborator alternativ, cu o
-        durată de 9 săptămâni, dedicat tuturor studenților pasionați de programare. CDL este despre
-        dezvoltarea de software liber, despre unelte utile și despre ce înseamnă o comunitate open source.
-        Anul acesta primul curs va avea loc în weekend-ul 19-20 martie."
+  content: "Cea de-a 9-a ediție a Cursului de Dezvoltare Liberă a luat sfârșit. Le mulțumim studenților, mentorilor
+        și celor implicați în organziare. Ne revedem la anul!
+        CDL este un curs/laborator alternativ, cu o durată de 9 săptămâni, dedicat tuturor studenților pasionați
+        de programare. CDL este despre dezvoltarea de software liber, despre unelte utile și despre ce înseamnă
+        o comunitate open source."
   extra_info: "Notă: Cursul nu intră în programa școlară și nu aduce credite în plus."
 
 - title: Misiune
