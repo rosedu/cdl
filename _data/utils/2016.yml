@@ -22,29 +22,23 @@
   id: 2
 
 - title: Programare funcțională
-  description: O introducere în programarea funcțională și Haskell.
+  description: "O introducere în programarea funcțională și Haskell."
   commands:
     - https://github.com/haskell-ro/haskell-workshop/blob/master/pdfs/2014/1a.FP.CDL.pdf
   id: 3
 
 
 - title: Introducere în WEB
-  description: Cum funcționează HTTP, comunicarea client - server.
-  commands:
-    - ''
+  description: "Cum funcționează HTTP, comunicarea client - server."
   id: 4
 
 - title: Introducere în APIs
-  description: Cum funcționează HTTP, comunicarea client - server.
-  commands:
-    - ''
+  description: "Cum funcționează HTTP, comunicarea client - server."
   id: 5
 
 
 - title: Introducere în Baze de Date
-  description: Tipuri de baze de data: SQL și NoSQL, introducere în MongoDB.
-  commands:
-    - ''
+  description: "Tipuri de baze de date: SQL și NoSQL, introducere în MongoDB."
   id: 6
 
 
@@ -53,5 +47,5 @@
     Oportunități Open Source - Google Summer of Code, GNOME Project etc. - [2]"
   commands:
     - https://www.evernote.com/shard/s89/sh/43e47787-dd07-4b12-b0b6-3960a9590d8b/704f568e9d8df4ab
-    - https://docs.google.com/presentation/d/15M6hC6GPl6bQ7urDsecJXLWgmMrUKl39U5vjXuJjcRM/edit
+    - https://docs.google.com/presentation/d/15M6hC6GPl6bQ7urDsecJXLWgmMrUKl39U5vjXuJjcRM/
   id: 7
