@@ -33,7 +33,9 @@
   id: 4
 
 - title: Introducere în APIs
-  description: "Cum funcționează HTTP, comunicarea client - server."
+  description: "APIs cu Flask - De ce APIs? Exemple și exerciții cu Flask."
+  commands:
+    - https://goo.gl/oXbipc
   id: 5
 
 
