@@ -1,0 +1,32 @@
+<div class="col-xs-3 col-centered scrollable">
+  <h1 class="section-title">
+    <a class="btn btn-default btn-lg" href="" onclick="populate_and_open_modal(event, '#utils-modal-content-{{ item.id }}');" class="thumbnail linked" target="_blank">{{ item.title }} </a> </h1>
+</div>
+
+    <div class="modal fade" id="utils-modal-content-{{ item.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button class="btn pull-right" id="close-modal" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove-circle"></i></button>
+          <div class="modal-header">
+            <div class="section-title">
+              <h2>{{ item.title }}</h2>
+            </div>
+            {% if item.description %}<i>{{ item.description }}</i>{% endif %}
+          </div>
+
+          <div class="modal-body">
+            <p>
+              {% if item.commands %}
+                <b>Resurse utile:</b><br><br>
+                {% assign command_index = 1 %}
+                {% for command in item.commands %}
+                  [{{ command_index }}]: <a href="{{ command }}" target="_blank">{{ command }}</a>
+                {% assign command_index = command_index |plus: 1 %}
+                <br>
+                {% endfor %}
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /modal-content -->
