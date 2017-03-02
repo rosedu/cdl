@@ -14,21 +14,24 @@
 #
 
 
-- title: Soon! Stay Tuned
-  image: assets/images/projects/staytuned.png
+
+- title: data.gov.ro
+  keywords: python, html
+  repo: https://github.com/govro/datagovro
+  description:  "Data.gov.ro este punctul principal de extindere al transparenței prin
+                 oferirea unei platforme unde autoritățile pot livra date
+                 deschise sub formă de dataset-uri, într-un mod consecvent,
+                 pentru analiză și informare. Platforma are la bază
+                 aplicația web, open-source, CKAN, care la momentul actual
+                 este cel mai folosit portal de date libere. Participanții
+                 vor avea ocazia să învețe atât Python, cât și HTML,
+                 ajutând la dezvoltarea platformei."
+  used-technologies: Python, HTML
+  mentor: Răzvan Popa
+  image: assets/images/projects/data.gov.ro.png
   id: 1
 
-# Base projects
-# - title: data.gov.ro
-#   keywords: python, html
-#   repo: https://github.com/govro/datagovro
-#   description:  "Este punctul central de acces pentru seturile de date deschise livrate de
-#                 autoritățile și instituțiile administrației publice. Acesta rulează software-ul
-#                 liber CKAN, cel mai folosit portal de date deschise."
-#   used-technologies: Python, HTML
-#   mentor: Alex Palcuie
-#   image: assets/images/projects/data.gov.ro.png
-#   id: 1
+
 
 # - title: Meta CGL
 #   keywords: linux, python
