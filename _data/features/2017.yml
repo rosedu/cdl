@@ -16,7 +16,8 @@
 
 
 - title: data.gov.ro
-  keywords: python, html
+  keywords: Python, HTML
+  url: http://data.gov.ro
   repo: https://github.com/govro/datagovro
   description:  "Data.gov.ro este punctul principal de extindere al transparenței prin
                  oferirea unei platforme unde autoritățile pot livra date
