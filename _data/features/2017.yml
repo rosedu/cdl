@@ -31,6 +31,24 @@
   image: assets/images/projects/data.gov.ro.png
   id: 1
 
+- title: WoUSO
+  keywords: Django, Python
+  url: https://wouso.cs.pub.ro
+  repo: https://github.com/rosedu/wouso/
+  description: "World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
+            O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
+            World of USO este dezvoltat in Django, o platformă web bazată pe Python. De ce WoUSO?
+            Vă veți îmbunătăți skill-urile de programare dobândind cunoștinte despre Python, Django, și altele.
+            Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
+            obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
+            problemelor ce au apărut în decursul ultimei ediții."
+  used-technologies: Django, Python
+  requirements: Python, cunoștințe de bază legate de programare
+  image: assets/images/projects/wouso_simple.png
+  mentor: Iulian Radu
+  id: 2
+
+
 
 
 # - title: Meta CGL
@@ -108,26 +126,6 @@
 #   image: assets/images/projects/lambda_logo_small.png
 #   mentor: Dan Șerban
 #   id: 4
-
-# - title: WoUSO
-#   keywords: Django, Python
-#   url: https://wouso.cs.pub.ro
-#   repo: https://github.com/rosedu/wouso/
-#   description: "World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
-#             O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
-#             World of USO este dezvoltat in Django. Informații despre Django găsiți în secțiunea de link-uri utile.
-#             De ce WoUSO?
-#             Vă veți îmbunătăți skill-urile de programare dobândind cunoștinte despre Python, Django etc.
-#             Veți contribui semnificativ la dezvoltarea jocului. WoUSO is fun.
-#             Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
-#             obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
-#             problemelor ce au apărut în decursul ultimei ediții."
-#   used-technologies: Django, Python
-#   requirements: Python, cunoștințe de bază legate de programare
-#   extra-link0: https://docs.djangoproject.com/en/dev/intro/overview/
-#   image: assets/images/projects/wouso.png
-#   mentor: Răzvan Chițu
-#   id: 5
 
 # - title: Wyliodrin & libmraa
 #   keywords: C/C++, CMake, embedded, Raspberry Pi
