@@ -49,8 +49,18 @@
   mentor: Iulian Radu
   id: 2
 
-
-
+- title: Wyliodrin
+  keywords:  C, Javascript, Python, HTML
+  url: https://wyliodrin.org
+  repo: https://github.com/Wyliodrin/WyliodrinSTUDIO
+  description: "Wyliodrin STUDIO este un IDE în Chrome pentru dezvoltare de software și hardware pentru system IoT și embedded.
+  Puteți găsi mai multe informații despre Wyliodrin și proiectele lor la link-urile utile."
+  used-technologies:  C, Javascript, Python, HTML
+  extra-link0: https://github.com/Wyliodrin/WyliodrinSTUDIO/blob/cdl/CDL2017.md
+  extra-link1: https://www.youtube.com/watch?v=AJIClO_cC8o
+  image: assets/images/projects/wyliodrin.png
+  mentor: Ioana Culic, Alexandru Radovici
+  id: 3
 
 # - title: Meta CGL
 #   keywords: linux, python
@@ -128,19 +138,3 @@
 #   mentor: Dan Șerban
 #   id: 4
 
-# - title: Wyliodrin & libmraa
-#   keywords: C/C++, CMake, embedded, Raspberry Pi
-#   url: https://wyliodrin.com/
-#   repo: https://github.com/intel-iot-devkit/mraa/
-#   description: "MRAA este o bibliotecă pentru controlul plăcilor de dezvoltare. Pentru moment este dezvoltată
-#               de Intel Co. și este disponibilă pentru plăcile Intel Galieo și Edison. Recent, s-a început lucrul
-#               la portarea ei pe Raspberry Pi, BeagleBone și Banana Pi. Noi ne vom ocupa de portarea ei pe
-#               UDOO și Parallella. Importanța acestui proiect este dată de UPM. Acesta este o bibliotecă pentru
-#               senzori care se bazează pe MRAA și care probabil va deveni un standard în domeniu.
-#               Scopul final este integrarea acestei biblioteci în cadrul serviciului Wyliodrin."
-#   used-technologies:  C/C++, CMake, Swig
-#   requirements: C/C++, Programare Orientată pe Obiecte(începător)
-#   extra-link0: https://github.com/Wyliodrin/libwyliodrin/
-#   image: assets/images/projects/wyliodrin.png
-#   mentor: Ioana Culic, Andrei Dinu și Alexandru Radovici
-#   id: 6
