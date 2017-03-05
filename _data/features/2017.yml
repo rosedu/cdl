@@ -13,8 +13,6 @@
 #   id: unique number
 #
 
-
-
 - title: data.gov.ro
   keywords: Python, HTML
   url: http://data.gov.ro
@@ -51,7 +49,7 @@
 
 - title: Wyliodrin
   keywords:  C, Javascript, Python, HTML
-  url: https://wyliodrin.org
+  url: http://wyliodrin.org
   repo: https://github.com/Wyliodrin/WyliodrinSTUDIO
   description: "Wyliodrin STUDIO este un IDE în Chrome pentru dezvoltare de software și hardware pentru system IoT și embedded.
   Puteți găsi mai multe informații despre Wyliodrin și proiectele lor la link-urile utile."
@@ -62,79 +60,14 @@
   mentor: Ioana Culic, Alexandru Radovici
   id: 3
 
-# - title: Meta CGL
-#   keywords: linux, python
-#   repo: https://git.yoctoproject.org/cgit/cgit.cgi/meta-cgl/
-#   description:  "Meta-cgl reprezinta prima distributie Linux open-source care oferă
-#                 support pentru standardul Carrier Grade Linux(CGL). Standardul CGL
-#                 este representat sub forma unui document de specificatii care contine
-#                 un set de cerinte pe care fiecare vendor de distributie Linux le poate
-#                 implementa. Rolul initiativei meta-cgl aflate sub umbrela Yocto Project
-#                 este acela de a veni in ajutorul vendorilor de distributii conforme cu
-#                 standardul CGL prin simplificarea procesului de dezvoltare si testare
-#                 ce apare in cadrul muncii pentru conformarea cu standardul.
-#                 Scopul proiectului este acela de a se pozitiona ca distributia Linux de
-#                 referinta pentru standardul CGL pentru a putea aduce un plus de valoare ecosistemului Linux."
-#   used-technologies: Linux, Python, shell scripting si Yocto Project
-#   requirements: Linux, Python (beginner)
-#   mentor: Alexandru Văduva
-#   image: assets/images/projects/yocto-project-transp.png
-#   id: 2
-
-# - title: MySQL Protobuf
-#   keywords: mysql, c++
-#   repo: https://github.com/google/mysql-protobuf
-#   description: "MySQL Protobuf este un fork de MySQL care are suport nativ pentru Protocol
-#                 buffers[1] (protobufs). Avantajul pe care îl aduc protobufferele este faptul că
-#                 oferă o combinație ideala între flexibilitatea unui format precum JSON și
-#                 type checkingul din SQL. În general, atunci când se modifică definiția sau
-#                 se adaugă o coloană nouă într-un tabel MySQL, sunt rescrise toate liniile,
-#                 operație care poate dura foarte mult în funcție de dimensiunea tabelului.
-#                 Grupând coloanele care sunt mai predispuse la modificare într-o coloană de tip
-#                 protobuf, putem evita acest delay prin faptul că nu mai este necesară
-#                 modificarea întregii scheme a tabelului, ci doar definiția coloanei respective,
-#                 lucru care se poate face fără a rescrie vreun rând. Desigur, modificările
-#                 aduse definiției protobufului trebuie să fie compatibile cu definiția
-#                 anterioară.
-#                 Obiectivul principal pe care ni-l propunem este reimplementarea suportului
-#                 pentru protocol buffers în MariaDB. De asemenea, dacă timpul ne permite,
-#                 urmatoarele două obiective sunt:
-#                   * adăugarea suportului pentru protobufs în bibliotecile client MySQL/MariaDB
-#                   * posibilitatea indexării pe un sub-field dintr-o coloana de tip protobuf.
-#                 Codul este momentan 'work in progress', prin urmare pot fi îmbunătățite o
-#                 mulțime de lucruri și la implementarea curentă din MySQL. Mai multe detalii
-#                 despre feature-urile deja existente se găsesc pe Wiki-ul proiectului[2]."
-#   used-technologies:  C++, Protocol Buffers, Bison/Flex, CMake, MySQL
-#   extra-link0: https://github.com/google/mysql-protobuf/wiki
-#   extra-link1: https://developers.google.com/protocol-buffers/
-#   extra-link2: https://github.com/google/mysql-protobuf/wiki
-#   mentor: Flavius Anton
-#   image: assets/images/projects/mysql_logo.jpg
-#   id: 3
-
-# - title: State Machine Testing With QuickCheck
-#   keywords: Haskell, SQL
-#   repo: https://github.com/dserban/StateMachineTestingWithQuickCheck
-#   description: "În ultimii ani a avut loc o explozie a proiectelor open-source de tip database-engine,
-#             și implicit o competiție acerbă între acestea, care să aibă feature-uri mai multe și mai
-#             sofisticate. Această goană după feature-uri a avut loc însă în detrimentul calității,
-#             mai ales în zona NoSQL.
-#             Proiectul pe care vi-l propun are ca obiectiv construirea, pornind de la framework-ul open-source
-#             QuickCheck[0], scris în Haskell, a unui instrument generic de testare care să permită găsirea
-#             bug-urilor mai greu de depistat prin metode convenționale, în proiectele open-source menționate
-#             mai sus.
-#             Propunerea de proiect se adresează celor cu o pasiune deosebită pentru programarea high-level,
-#             sau celor interesați în mod special de limbajul Haskell.
-#             Ideea de bază am descris-o într-o prezentare acum câteva luni, găsiți înregistrare video la [1],
-#             slide-uri și cod la [2]."
-#   used-technologies: Haskell
-#   requirements: Algoritmică
-#   extra-link0: https://www.fpcomplete.com/user/pbv/an-introduction-to-quickcheck-testing
-#   extra-link1: https://www.youtube.com/watch?v=RneA7Tt3I4U
-#   extra-link2: https://github.com/dserban/StateMachineTestingWithQuickCheck
-#   extra-link3: git clone
-#   extra-link4: https://github.com/dserban/FrontendWorkshopCDL.git
-#   image: assets/images/projects/lambda_logo_small.png
-#   mentor: Dan Șerban
-#   id: 4
-
+- title: GNOME
+  keywords:  C, Javascript, Python, XML
+  url: https://gnome.org
+  description: "GNOME este unul din cele mai populare desktop environments din mediul Linux.
+  Are la bază o comunitate activă ce dezvoltă o suită întreagă de aplicații într-o multitudine de tehnologii.
+  Multe proiecte folosesc limbajul C, dar există și aplicații scrise în Python sau JavaScript."
+  used-technologies:  C, Javascript, Python, XML
+  extra-link0: https://wiki.gnome.org/Newcomers/
+  image: assets/images/projects/gnome.png
+  mentor: Rareș Visalom, Iulian Radu, Răzvan Chițu
+  id: 4
