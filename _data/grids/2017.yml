@@ -16,14 +16,16 @@
 - title: Informații generale
   content: "CDL este un curs/laborator alternativ, cu o durată de 9 săptămâni,
         dedicat tuturor studenților pasionați de programare. CDL este despre dezvoltarea de software liber, despre unelte utile și despre ce înseamnă
-        o comunitate open source."
+        o comunitate open source.
+        Puteți să vă înscrieți la CDL până pe 9 martie, 23:55.
+        Pentru înscriere va trebui să rezolvați <a href=https://github.com/rosedu/problema-cdl-2017>problema propusă</a>
+        și să completați <a href=ttps://goo.gl/forms/RtTQhvAjIBSKVXrC3>formularul de înscriere</a>."
   extra_info: "Notă: Cursul nu intră în programa școlară și nu aduce credite în plus."
-
 
 - title: Misiune
   content: "Cursul își propune să ajute studenții aflați în primii ani de studiu din toate universitățile din
         București să facă prima lor contribuție în cadrul unui proiect open source și să-și formeze o impresie
-        legată de ceea ce înseamnă dezvoltarea software în mediul real. În cadrul cursului studenții vor
+        legată de ceea ce înseamnă dezvoltarea software în mediul real. Cu ajutorul mentorilor, în cadrul cursului studenții vor
         aprofunda diferite limbaje de programare, vor dobândi noțiuni legate de programarea orientată pe
         obiecte și design patterns și vor vedea cum este să lucrezi cu o comunitate open source."
 
