@@ -71,3 +71,22 @@
   image: assets/images/projects/gnome.png
   mentor: Rareș Visalom, Iulian Radu, Răzvan Chițu
   id: 4
+
+- title: Meta CGL
+  keywords: Linux, Python
+  repo: https://git.yoctoproject.org/cgit/cgit.cgi/meta-cgl/
+  description:  "Meta-cgl reprezintă prima distribuție Linux open-source care oferă
+                support pentru standardul Carrier Grade Linux(CGL). Standardul CGL
+                este representat sub forma unui document de specificatii care conține
+                un set de cerințe pe care fiecare vendor de distribuție Linux le poate
+                implementa. Rolul inițiativei meta-cgl aflate sub umbrela Yocto Project
+                este acela de a veni in ajutorul vendorilor de distribuții conforme cu
+                standardul CGL prin simplificarea procesului de dezvoltare și testare
+                ce apare în cadrul muncii pentru conformarea cu standardul.
+                Scopul proiectului este acela de a se poziționa ca distribuția Linux de
+                referință pentru standardul CGL pentru a putea aduce un plus de valoare ecosistemului Linux."
+  used-technologies: Linux, Python, Shell Scripting
+  requirements: Linux, Python (beginner)
+  mentor: Alexandru Văduva
+  image: assets/images/projects/yocto-project-transp.png
+  id: 5
