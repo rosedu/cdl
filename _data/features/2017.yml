@@ -90,3 +90,17 @@
   mentor: Alexandru Văduva
   image: assets/images/projects/yocto-project-transp.png
   id: 5
+
+- title: coala
+  keywords: Python
+  url: https://coala.io
+  repo: https://github.com/coala/coala
+  description: "coala e un tool în linie de comandă care îți verifică/îmbunătățește codul, 
+  verificând erori de sintaxa, coding style-ul, securitatea. De ce coala? Pentru că învățând
+  cum să scrii plugin-uri pentru a corecta cod în diferite limbaje, te poate ajuta să scrii
+  un cod mai bun și mai curat."
+  used-technologies: Python
+  requirements: Python, cunoștințe de bază legate de programare
+  image: assets/images/projects/coala.png
+  mentor: Adrian Zătreanu
+  id: 6
