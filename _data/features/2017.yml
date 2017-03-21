@@ -104,3 +104,19 @@
   image: assets/images/projects/coala.png
   mentor: Adrian Zătreanu
   id: 6
+
+- title: Spark Testing Base
+  keywords: big data, Scala
+  repo: https://github.com/holdenk/spark-testing-base
+  description: "Spark Testing Base este standardul de facto pentru testarea aplicațiilor big data
+  care au la baza framework-ul Apache Spark. Odată cu trecerea la versiunea Spark 2.0, are loc
+  tranziția de la lucrul cu RDD-uri (Resilient Distributed Datasets) la lucrul cu DataFrames și DataSets,
+  precum și de la lucrul cu DStreams (Discretized Streams) la dezvoltarea de aplicații pe baza de
+  Structured Streaming (Infinite DataFrames). Cu Spark Testing Base putem testa în momentul de față
+  aplicații pe bază de DStreams, dar nu și aplicații Structured Streaming. Ne propunem in cadrul proiectului
+  să adaugăm această funcționalitate lipsă."
+  used-technologies: Spark, Scala, Python
+  requirements: Gândire analitică, interes pentru tehnologiile big data
+  image: assets/images/projects/spark.png
+  mentor: Dan Șerban
+  id: 7
