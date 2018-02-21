@@ -1,0 +1,26 @@
+# Define form type elements data.
+# It has the following structure:
+# - title: string
+#   url: URL to edition site
+#
+
+- title: CDL 2017
+  url: editions/2017
+
+- title: CDL 2016
+  url: editions/2016
+
+- title: CDL 2015
+  url: editions/2015
+
+- title: ETTI 2014
+  url: editions/etti_2014
+
+- title: Extended 2014
+  url: editions/extended_2014
+
+- title: Primăvară 2013
+  url: editions/spring_2013
+
+- title: Unibuc 2013
+  url: editions/unibuc_2013
