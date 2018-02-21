@@ -1,0 +1,13 @@
+<!-- utils box -->
+<article id="resources" class="utils">
+  <div class="content-wrapper container clearfix">
+    <h1 class="section-title scrollable"> Resurse utile pentru cursanți </h1>
+    <section class="feature-columns row clearfix">
+      <article class="row row-md-4">
+        {% for item in site.data.utils['2018'] %}
+        {% include 2018/utils_item.html %}
+        {% endfor %}
+      </article>
+    </section><!-- /feature-columns -->
+  </div>
+</article><!-- /utils -->

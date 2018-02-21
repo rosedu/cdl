@@ -24,7 +24,7 @@ a, a:hover, a:link, a:visited {
     Box with picture
 ------------------------*/
 #content .picture-box {
-  background: url(../images/cdl-team.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/cdl_team.jpg) 50% 0 no-repeat fixed;
   background-position: center;
   background-size: cover;
   margin-top: 1%;
