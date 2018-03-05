@@ -13,40 +13,6 @@
 #   id: unique number
 #
 
-- title: data.gov.ro
-  keywords: Python, HTML
-  url: http://data.gov.ro
-  repo: https://github.com/govro/datagovro
-  description:  "Data.gov.ro este punctul principal de extindere al transparenței prin
-                 oferirea unei platforme unde autoritățile pot livra date
-                 deschise sub formă de dataset-uri, într-un mod consecvent,
-                 pentru analiză și informare. Platforma are la bază
-                 aplicația web, open-source, CKAN, care la momentul actual
-                 este cel mai folosit portal de date libere. Participanții
-                 vor avea ocazia să învețe atât Python, cât și HTML,
-                 ajutând la dezvoltarea platformei."
-  used-technologies: Python, HTML
-  mentor: Răzvan Popa
-  image: assets/images/projects/data.gov.ro.png
-  id: 1
-
-- title: WoUSO
-  keywords: Django, Python
-  url: https://wouso.cs.pub.ro
-  repo: https://github.com/rosedu/wouso/
-  description: "World of USO este o platformă online de învățare, asemănătoare cu un joc de cunoștințe.
-            O modalitate interactivă și distractivă prin care studenții pot învăța noțiuni legate de Linux și cultură IT.
-            World of USO este dezvoltat in Django, o platformă web bazată pe Python. De ce WoUSO?
-            Vă veți îmbunătăți skill-urile de programare dobândind cunoștinte despre Python, Django, și altele.
-            Se dorește revizuirea spell-urilor și a achievement-urilor, îmbunătățirea interfeței de configurare,
-            obținerea unei mai bune separări între engine și content, extinderea suitei de teste și rezolvarea
-            problemelor ce au apărut în decursul ultimei ediții."
-  used-technologies: Django, Python
-  requirements: Python, cunoștințe de bază legate de programare
-  image: assets/images/projects/wouso_simple.png
-  mentor: Iulian Radu, Gabriel Ivașcu
-  id: 2
-
 - title: Wyliodrin
   keywords:  C, Javascript, Python, HTML
   url: http://wyliodrin.org
@@ -57,39 +23,26 @@
   extra-link0: https://github.com/Wyliodrin/WyliodrinSTUDIO/blob/cdl/CDL2017.md
   extra-link1: https://www.youtube.com/watch?v=AJIClO_cC8o
   image: assets/images/projects/wyliodrin.png
-  mentor: Ioana Culic, Alexandru Radovici
-  id: 3
+  mentor: Alexandru Radovici
+  id: 1
 
 - title: GNOME
-  keywords:  C, Javascript, Python, XML
+  keywords:  C, GTK+, Glib
   url: https://gnome.org
+  repo: https://gitlab.gnome.org/GNOME/nautilus
   description: "GNOME este unul din cele mai populare desktop environments din mediul Linux.
   Are la bază o comunitate activă ce dezvoltă o suită întreagă de aplicații într-o multitudine de tehnologii.
-  Multe proiecte folosesc limbajul C, dar există și aplicații scrise în Python sau JavaScript."
-  used-technologies:  C, Javascript, Python, XML
+  Multe proiecte folosesc limbajul C, dar există și aplicații scrise în Python sau JavaScript.
+  
+  Files (Nautilus) este file manager-ul oficial al GNOME fiind unul din cele mai folosite in mediul Linux.
+  Este implementat in C si oferă o interfață simplă pentru a naviga și gestiona fișierele.
+  Mai multe informații despre GNOME si Nautilus pot fi găsite in link-urile utile."
+  used-technologies:  C, GTK+, Glib
   extra-link0: https://wiki.gnome.org/Newcomers/
+  extra-link1: https://wiki.gnome.org/Apps/Files
   image: assets/images/projects/gnome.png
-  mentor: Rareș Visalom, Iulian Radu, Răzvan Chițu
-  id: 4
-
-- title: Meta CGL
-  keywords: Linux, Python
-  repo: https://git.yoctoproject.org/cgit/cgit.cgi/meta-cgl/
-  description:  "Meta-cgl reprezintă prima distribuție Linux open-source care oferă
-                support pentru standardul Carrier Grade Linux(CGL). Standardul CGL
-                este representat sub forma unui document de specificatii care conține
-                un set de cerințe pe care fiecare vendor de distribuție Linux le poate
-                implementa. Rolul inițiativei meta-cgl aflate sub umbrela Yocto Project
-                este acela de a veni in ajutorul vendorilor de distribuții conforme cu
-                standardul CGL prin simplificarea procesului de dezvoltare și testare
-                ce apare în cadrul muncii pentru conformarea cu standardul.
-                Scopul proiectului este acela de a se poziționa ca distribuția Linux de
-                referință pentru standardul CGL pentru a putea aduce un plus de valoare ecosistemului Linux."
-  used-technologies: Linux, Python, Shell Scripting
-  requirements: Linux, Python (beginner)
-  mentor: Alexandru Văduva
-  image: assets/images/projects/yocto-project-transp.png
-  id: 5
+  mentor: Alexandru Pandelea
+  id: 2
 
 - title: coala
   keywords: Python
@@ -102,21 +55,5 @@
   used-technologies: Python
   requirements: Python, cunoștințe de bază legate de programare
   image: assets/images/projects/coala.png
-  mentor: Adrian Zătreanu
-  id: 6
-
-- title: Spark Testing Base
-  keywords: big data, Scala
-  repo: https://github.com/holdenk/spark-testing-base
-  description: "Spark Testing Base este standardul de facto pentru testarea aplicațiilor big data
-  care au la baza framework-ul Apache Spark. Odată cu trecerea la versiunea Spark 2.0, are loc
-  tranziția de la lucrul cu RDD-uri (Resilient Distributed Datasets) la lucrul cu DataFrames și DataSets,
-  precum și de la lucrul cu DStreams (Discretized Streams) la dezvoltarea de aplicații pe baza de
-  Structured Streaming (Infinite DataFrames). Cu Spark Testing Base putem testa în momentul de față
-  aplicații pe bază de DStreams, dar nu și aplicații Structured Streaming. Ne propunem in cadrul proiectului
-  să adaugăm această funcționalitate lipsă."
-  used-technologies: Spark, Scala, Python
-  requirements: Gândire analitică, interes pentru tehnologiile big data
-  image: assets/images/projects/spark.png
-  mentor: Dan Șerban
-  id: 7
+  mentor: Alexandru Maxim
+  id: 3
