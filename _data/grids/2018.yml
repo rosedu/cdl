@@ -17,7 +17,7 @@
   content: "CDL este un curs/laborator alternativ, cu o durată de 8 săptămâni,
         dedicat tuturor studenților pasionați de programare. CDL este despre dezvoltarea de software liber, despre unelte utile și despre ce înseamnă
         o comunitate open source.
-        Puteți să vă înscrieți la CDL până pe 11 martie, ora 23:55.
+        Puteți să vă înscrieți la CDL până pe <del>11 martie</del> <ins>12 martie</ins>, ora 23:55.
         Pentru înscriere va trebui să rezolvați <a href=https://github.com/rosedu/problema-cdl-2018>PROBLEMA PROPUSĂ</a>
         și să completați <a href=https://goo.gl/forms/TxKNeH18k3GONtH13>FORMULARUL DE ÎNSCRIERE</a>."
   extra_info: "Notă: Cursul nu intră în programa școlară și nu aduce credite în plus."
