@@ -1,0 +1,40 @@
+ <article class="feature-col col-md-4">
+  <a href="" onclick="populate_and_open_modal(event, '#featured-modal-content-{{ item.id }}');" class="thumbnail linked">
+    <div class="image-container scrollable">
+      <img src="{{ item.image }}" class="lazy item-thumbnail" alt="Lorem Ipsum">
+    </div>
+    <div class="caption">
+      <h5>{{ item.title }}</h5>
+      <p>{{ item.keywords }}</p>
+    </div>
+  </a><!-- /thumbnail -->
+
+  <div class="modal fade" id="featured-modal-content-{{ item.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button class="btn pull-right" id="close-modal" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove-circle"></i></button>
+        <div class="modal-header">
+          <img src="{{ item.image }}" class="col-md-6" alt="Lorem Ipsum">
+          <h1>{{ item.title }}</h1>
+        </div>
+        <div class="modal-body">
+          <p>
+            {% if item.url %}<b>URL:</b> <a href="{{ item.url }}">{{ item.url }}</a><br><br>{% endif %}
+            {% if item.repo %}<b>Repository and Development:</b> <a href="{{ item.repo }}">{{ item.repo }}</a><br><br>{% endif %}
+            {% if item.description %}<b>Descriere:</b> {{ item.description }}<br><br>{% endif %}
+            {% if item.used-technologies %}<b>Tehnologii folosite:</b> {{ item.used-technologies }}<br><br>{% endif %}
+            {% if item.requirements %}<b>Cunoștințe minime:</b> {{ item.requirements }}<br><br>{% endif %}
+            {% if item.extra-link0 %}<b>Link-uri utile:</b><br>[0]: <a href="{{ item.extra-link0 }}">{{ item.extra-link0 }}</a><br>{% endif %}
+            {% if item.extra-link1 %}[1]: <a href="{{ item.extra-link1 }}">{{ item.extra-link1 }}</a><br>
+              {% elsif item.extra-link0 %}<br>{% endif %}
+            {% if item.extra-link2 %}[2]: <a href="{{ item.extra-link2 }}">{{ item.extra-link2 }}</a> <br><br>{% endif %}
+            {% if item.extra-link3 %}<b>Comenzi utile:</b> <i>{{item.extra-link3 }} </i>
+              {% if item.extra-link4 %} <a href="{{ item.extra-link4 }}">{{ item.extra-link4 }}</a> <br><br>{% endif %} 
+            {% endif %}
+            {% if item.mentor %}<b>Mentor:</b> {{ item.mentor }}<br/>{% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div><!-- /modal-content -->
+</article><!-- /featured-item -->
