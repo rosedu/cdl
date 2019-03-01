@@ -13,86 +13,13 @@
 #   id: unique number
 #
 
-- title: Wyliodrin
-  keywords:  C, Javascript, Python, HTML
-  url: http://wyliodrin.org
-  repo: https://github.com/Wyliodrin/WyliodrinSTUDIO
-  description: "Wyliodrin STUDIO este un IDE în Chrome pentru dezvoltare de software și hardware
-  pentru system IoT și embedded.
-  Puteți găsi mai multe informații despre Wyliodrin și proiectele lor la link-urile utile."
-  used-technologies:  C, Javascript, Python, HTML
-  extra-link0: https://github.com/Wyliodrin/WyliodrinSTUDIO/blob/cdl/CDL2017.md
-  extra-link1: https://www.youtube.com/watch?v=AJIClO_cC8o
-  image: assets/images/projects/wyliodrin.png
-  mentor: Ioana Culic, Alexandru Radovici
+- title: CCExtractor
+  keywords: C/C++/C#, Python, PHP, HTML
+  url: https://ccextractor.org
+  repo: https://github.com/CCExtractor/ccextractor
+  description: "CCExtractor este un instrument care analizează fișierele video și produce fișiere de subtitrare independente din datele de subtitrări închise (_closed captions_). CCExtractor este portabil, mic și foarte rapid. Funcționează în Linux, Windows și OSX."
+  used-technologies: C/C++/C#, Python, PHP, HTML
+  image: assets/images/projects/ccextractor.png
+  mentor: Alex Bratosin
   id: 1
-
-- title: GNOME
-  keywords:  C, GTK+, Glib
-  url: https://gnome.org
-  repo: https://gitlab.gnome.org/GNOME/nautilus
-  description: "GNOME este unul din cele mai populare desktop environments din mediul Linux.
-  Are la bază o comunitate activă ce dezvoltă o suită întreagă de aplicații într-o multitudine
-  de tehnologii. Multe proiecte folosesc limbajul C, dar există și aplicații scrise în Python
-  sau JavaScript.
-  
-  Files (Nautilus) este file manager-ul oficial al GNOME fiind unul din cele mai folosite in mediul Linux.
-  Este implementat in C si oferă o interfață simplă pentru a naviga și gestiona fișierele.
-  Mai multe informații despre GNOME si Nautilus pot fi găsite in link-urile utile."
-  used-technologies:  C, GTK+, Glib
-  extra-link0: https://wiki.gnome.org/Newcomers/
-  extra-link1: https://wiki.gnome.org/Apps/Files
-  image: assets/images/projects/gnome.png
-  mentor: Alexandru Pandelea
-  id: 2
-
-- title: coala
-  keywords: Python
-  url: https://coala.io
-  repo: https://github.com/coala/coala
-  description: "coala e un tool în linie de comandă care îți verifică/îmbunătățește codul, 
-  verificând erori de sintaxa, coding style-ul, securitatea. De ce coala? Pentru că învățând
-  cum să scrii plugin-uri pentru a corecta cod în diferite limbaje, te poate ajuta să scrii
-  un cod mai bun și mai curat."
-  used-technologies: Python
-  extra-link0: https://api.coala.io/en/latest/ 
-  requirements: Python, cunoștințe de bază legate de programare
-  image: assets/images/projects/coala.png
-  mentor: Alexandru Maxim
-  id: 3
-
-- title: AGL - Automotive Grade LInux
-  keywords: Linux, Python, shell scripting si Yocto Project
-  url: https://www.automotivelinux.org/
-  repo: https://git.automotivelinux.org/AGL/meta-agl/
-  description: "AGL is creating an automotive specific Linux distribution that unifies
-  the software that has been written in a number of places already, such as GENIVI and Tizen IVI.
-  The layer 'meta-agl' provides a minimal set of software to boot system of AGL Distribution.
-  'meta-agl' is the minimal core which is used build AGL profiles on top of it. Especially there is
-  no reference UI included which is part of 'meta-agl-demo'. Additional components like the security
-  framework are part of 'meta-agl-extra'."
-  used-technologies: Linux, Python, shell scripting si Yocto Project
-  requirements: Linux, Python (incepator)
-  image: assets/images/projects/agl_logo.png
-  mentor: Alexandru Vaduva
-  id: 4
-
-- title: D Programming Language
-  keywords: D, C/C++, Java
-  url: https://dlang.org
-  repo: https://github.com/dlang
-  description: "D este un limbaj de programare multi-paradigma, open-source, cu
-  sintaxa asemanatoare C, oferind numeroase avantaje ce-ti permit sa scrii cod
-  rapid, foarte repede. In ultimii ani, limbajul D a capatat amploare si a inceput
-  sa fie folosit de mai multe companii, printre care se afla Facebook si Netflix.
-  Comunitatea D este in continua crestere, iar anul acesta ofera oportunitatea unor
-  studenti pasionati de a contribui la dezvoltarea limbajului."
-  used-technologies: D
-  extra-link0: https://tour.dlang.org
-  extra-link1: https://wiki.dlang.org/Get_involved
-  extra-link2: http://ddili.org/ders/d.en/Programming_in_D.pdf
-  requirements: C/C++, Java
-  image: assets/images/projects/d_logo.png
-  mentor: Alexandru Jercaianu, Razvan Nitu
-  id: 5
   
