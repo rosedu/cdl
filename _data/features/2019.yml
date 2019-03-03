@@ -23,3 +23,21 @@
   mentor: Alex Bratosin
   id: 1
   
+- title: GNOME
+  keywords:  C, GTK+, Glib
+  url: https://gnome.org
+  repo: https://gitlab.gnome.org/GNOME/nautilus
+  description: "GNOME este unul din cele mai populare desktop environments din mediul Linux.
+  Are la bază o comunitate activă ce dezvoltă o suită întreagă de aplicații într-o multitudine
+  de tehnologii. Multe proiecte folosesc limbajul C, dar există și aplicații scrise în Python
+  sau JavaScript.
+
+  Files (Nautilus) este file manager-ul oficial al GNOME fiind unul din cele mai folosite in mediul Linux.
+  Este implementat in C si oferă o interfață simplă pentru a naviga și gestiona fișierele.
+  Mai multe informații despre GNOME si Nautilus pot fi găsite in link-urile utile."
+  used-technologies:  C, GTK+, Glib
+  extra-link0: https://wiki.gnome.org/Newcomers/
+  extra-link1: https://wiki.gnome.org/Apps/Files
+  image: assets/images/projects/gnome.png
+  mentor: Alex Fazakaș
+  id: 2
