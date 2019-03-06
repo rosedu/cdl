@@ -41,3 +41,22 @@
   image: assets/images/projects/gnome.png
   mentor: Alex Fazakaș
   id: 2
+
+- title: VMChecker Reloaded
+  keywords:  Nomad, Django, VueJS, GraphQL, QEMU-KVM
+  url: https://hackmd.io/eErQqHJXSWKFt0DsSQiAlQ
+  repo: https://github.com/mgax/vmck
+  description: "VMchecker este platforma de verificat teme de la Facultatea de 
+  Automatică și Calculatoare. Este folosită la peste 30 de cursuri, cu mașini 
+  virtuale și checkere diferite, și multiple tehnologii de virtualizare. În acest 
+  moment are loc o rescriere a platformei, folosind tehnologii moderne de virtualizare 
+  și orchestrare în cloud, o arhitectură modularizată, cu accent pe simplitatea implementării, 
+  mentenabilitate și ușurință în instalare și folosire. Target-ul este să evaluăm teme corect 
+  la o primă materie (Sisteme de operare) după care să extindem la alte materii și să marketăm 
+  proiectul la alte facultăți/universități care au nevoi similare."
+  used-technologies:  Nomad, Django, VueJS, GraphQL, QEMU-KVM
+  extra-link0: https://waffle.io/mgax/vmck
+  image: assets/images/projects/vmchecker.png
+  mentor: Alex Morega
+  id: 3
+  
