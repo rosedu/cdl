@@ -59,4 +59,21 @@
   image: assets/images/projects/vmchecker.png
   mentor: Alex Morega
   id: 3
-  
+
+- title: AGL - Automotive Grade Linux
+  keywords: Linux, Python, shell scripting si Yocto Project
+  url: https://www.automotivelinux.org/
+  repo: https://git.automotivelinux.org/AGL/meta-agl/
+  description: "AGL is creating an automotive specific Linux distribution that unifies
+  the software that has been written in a number of places already,
+  such as GENIVI and Tizen IVI.
+  The layer 'meta-agl' provides a minimal set of software
+  to boot system of AGL Distribution. 'meta-agl' is the minimal
+  core which is used build AGL profiles on top of it.
+  Especially there is no reference UI included which is part of 'meta-agl-demo'.
+  Additional components like the security framework are part of 'meta-agl-extra'."
+  used-technologies: Linux, Python, shell scripting si Yocto Project
+  requirements: Linux, Python (incepator)
+  image: assets/images/projects/agl_logo.png
+  mentor: Alexandru Vaduva
+  id: 4
