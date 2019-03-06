@@ -17,7 +17,10 @@
   keywords: C/C++/C#, Python, PHP, HTML
   url: https://ccextractor.org
   repo: https://github.com/CCExtractor/ccextractor
-  description: "CCExtractor este un instrument care analizează fișierele video și produce fișiere de subtitrare independente din datele de subtitrări închise (_closed captions_). CCExtractor este portabil, mic și foarte rapid. Funcționează în Linux, Windows și OSX."
+  description: "CCExtractor este un instrument care analizează fișierele video și 
+  produce fișiere de subtitrare independente din datele de subtitrări închise 
+  (_closed captions_). CCExtractor este portabil, mic și foarte rapid. Funcționează 
+  în Linux, Windows și OSX."
   used-technologies: C/C++/C#, Python, PHP, HTML
   image: assets/images/projects/ccextractor.png
   mentor: Alex Bratosin
@@ -77,3 +80,28 @@
   image: assets/images/projects/agl_logo.png
   mentor: Alexandru Vaduva
   id: 4
+
+- title: WoUSO - World of USO
+  keywords: JavaScript, Node.js, MySQL
+  url: https://wouso.cs.pub.ro/
+  description: "World of USO is a long-running project within the University 
+  POLITEHNICA of Bucharest. It is a quiz game platform used for educational and 
+  recreational purposes by first-year students taking the Introduction to Operating
+  Systems class (USO) at the Faculty of Automatic Control and Computers.<br><br>
+  The core architecture of WoUSO was redesigned and reimplemented. As such, the
+  games that ran on the platform needed to be adapted to the new system. Each game
+  required a new implementation for both its frontend and backend.<br><br>
+  The new version of WoUSO is written in JavaScript, using React (with Redux) on
+  the frontend and Node.js (Express and Sequelize) on the backend. MySQL was chosen
+  as the database technology.<br><br>
+  <b>You get to choose!</b> Now that the platform is launched, there is more work than ever to be done in
+  feature development, bug fixing, performance tuning, testing, documentation and deployment automation.
+  Contributing to WoUSO allows you to master modern technologies, design and build
+  components from the ground up, bring dramatic changes to the application and impact the experience
+  of hundreds of fellow students."
+  used-technologies: React, Redux, Express, Sequelize
+  requirements: JavaScript
+  extra-link0: https://github.com/ionhoria/wouso-frontend
+  extra-link1: https://github.com/ionhoria/wouso-backend
+  image: assets/images/projects/wouso_2018.svg
+  id: 5
