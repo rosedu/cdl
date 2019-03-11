@@ -60,7 +60,7 @@
   used-technologies:  Nomad, Django, VueJS, GraphQL, QEMU-KVM
   extra-link0: https://waffle.io/mgax/vmck
   image: assets/images/projects/vmchecker.png
-  mentor: Alex Morega
+  mentor: Alex Morega, Alex Tudorică
   id: 3
 
 - title: AGL - Automotive Grade Linux
