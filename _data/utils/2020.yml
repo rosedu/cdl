@@ -1,0 +1,53 @@
+# Define form type elements data.
+# It has the following structure:
+# - title: string
+#   id
+#
+- title: Git and GitHub
+  description: "Aici găsiți prezentările [1], [2] și la [3] cum să vă creați o cheia SSH
+              și să o includeți în contul vostru de GitHub. Iar la [4] un tutorial interactiv,
+              pe care vă recomand să-l parcurgeți. "
+  commands:
+      - http://slides.com/marianitadn/github#/
+      - http://slides.com/marianitadn/git#/
+      - https://help.github.com/articles/generating-an-ssh-key/
+      - https://try.github.io
+  id: 1
+
+- title: POO și Python
+  description: "Prezentare o găsiți aici [1], ce cuprinde și infrastructura de cod a
+                prezentări, pe care vă recomandăm să o parcurgeți. "
+  commands:
+    - https://github.com/rosedu/cdl-presentations/tree/master/cursuri/python/faculty
+  id: 2
+
+- title: Programare funcțională
+  description: "O introducere în programarea funcțională și Haskell."
+  commands:
+    - https://github.com/haskell-ro/haskell-workshop/blob/master/pdfs/2014/1a.FP.CDL.pdf
+  id: 3
+
+
+- title: Introducere în WEB
+  description: "Cum funcționează HTTP, comunicarea client - server."
+  id: 4
+
+- title: Introducere în APIs
+  description: "APIs cu Flask - De ce APIs? Exemple și exerciții cu Flask."
+  commands:
+    - https://goo.gl/oXbipc
+  id: 5
+
+
+- title: Introducere în Baze de Date
+  description: "Tipuri de baze de date: SQL și NoSQL, introducere în MongoDB."
+  id: 6
+
+
+- title: Interviuri. Oportunități
+  description: "Probleme de interviuri, cum să te pregătești pentru un interviu - [1]
+    Oportunități Open Source - Google Summer of Code, GNOME Project etc. - [2]"
+  commands:
+    - https://www.evernote.com/shard/s89/sh/43e47787-dd07-4b12-b0b6-3960a9590d8b/704f568e9d8df4ab
+    - https://goo.gl/48U4dH
+  id: 7

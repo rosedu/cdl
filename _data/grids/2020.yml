@@ -1,0 +1,32 @@
+# Define grid type elements data.
+# Each item has the following structure:
+# - title: string
+#   content: text
+#   extra_info: additional information (text)
+#
+
+- title: Informații generale
+  content: "CDL este un curs/laborator alternativ, cu o durată de 8 săptămâni,
+        dedicat tuturor studenților pasionați de programare. CDL este despre dezvoltarea de software liber, despre unelte utile și despre ce înseamnă
+        o comunitate open source."
+  extra_info: "Notă: Cursul nu intră în programa școlară și nu aduce credite în plus."
+
+- title: Misiune
+  content: "Cursul își propune să ajute studenții aflați în primii ani de studiu din toate universitățile din
+        București să facă prima lor contribuție în cadrul unui proiect open source și să-și formeze o impresie
+        legată de ceea ce înseamnă dezvoltarea software în mediul real. Cu ajutorul mentorilor, în cadrul cursului studenții vor
+        aprofunda diferite limbaje de programare, vor dobândi noțiuni legate de programarea orientată pe
+        obiecte și design patterns și vor vedea cum este să lucrezi cu o comunitate open source."
+
+- title: Prezentări
+  content: "În cadrul CDL, în fiecare săptămână vor exista prezentări tehnice sau non-tehnice. Scopul acestora
+        este de a îi ajuta pe studenți să dobândească noțiunile necesare pentru a putea contribui la proiecte
+        open source. Subiectele abordate vor include open source, Linux, sisteme de versionare, programare
+        orientată pe obiecte, testarea codului etc."
+#   extra_info: Prezentările vor avea loc în fiecare sâmbătă între orele 10-12.
+
+- title: Contribuire la un proiect open source
+  content: "Participanții la CDL vor avea ocazia să contribuie la un proiect open source, unde vor folosi noțiunile
+        dobândite în cadru prezentărilor. Ei își vor alege în cadrul primului curs proiectul la care vor dori să
+        lucreze, iar pe durata cursului vor dezvolta feature-uri la acest proiect, sub îndrumarea unui mentor."
+#   extra_info: Partea de contribuții la proiecte se va ține în fiecare sâmbătă între orele 12-14.

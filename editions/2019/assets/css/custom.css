@@ -1,0 +1,194 @@
+/*-----------------------
+      Main elements
+-----------------------*/
+a, a:hover, a:link, a:visited {
+  color: #FF9800;
+  text-decoration: none;
+}
+
+/*-----------------------
+   Main menu & content
+-----------------------*/
+#menu #logo img {
+  width: 180px;
+  height: 70px;
+  margin-top: -5px;
+  margin-left: 95px;
+}
+
+#content .section-title {
+  color: #FF9800;
+}
+
+/*------------------------
+    Box with picture
+------------------------*/
+#content .picture-box {
+  background: url(../images/rosedu_background.png) 50% 0 no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: 1%;
+}
+
+#content .picture-box .picture-canvas {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/*------------------------
+    Form box
+------------------------*/
+#content .form-box {
+  background: url(../images/creative_common/apply.jpeg) 50% 0 no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#content .form-box .extra_info {
+  font-size: 12px;
+  color: #e7e7e7;
+  line-height: 30px;
+  font-style: italic;
+}
+
+/*------------------------
+        Grid
+------------------------*/
+#content .grid {
+    display: block;
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.95em;
+}
+
+/*------------------------
+      Slide-in effect
+------------------------*/
+.come-in {
+      -webkit-transform: translateY(150px);
+      -webkit-animation: come-in 1s ease forwards;
+      -webkit-animation-delay: 0.2s;
+      transform: translateY(150px);
+      animation: come-in 1s ease forwards;
+      animation-delay: 0.2s;
+    }
+    
+.come-in:nth-child(odd) {
+  -webkit-animation-duration: 0.6s; /* So they look staggered */
+}
+
+.already-visible {
+  -webkit-transform: translateY(0);
+  -webkit-animation: none;
+  transform: translateY(0);
+  animation: none;
+}
+
+@-webkit-keyframes come-in {
+  to {
+    -webkit-transform: translateY(0); 
+  }
+} 
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/*------------------------
+    Custom padding
+------------------------*/
+/* IPhone 3GS/4, smaller phones */
+@media only screen and (max-height: 480px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    height: 360px;
+  }
+  #content .picture-box .container {
+    padding-top: 60px;
+  }
+}
+
+/* IPhone 5, LG Optimus 2X/3D/Black, S/S2/W, Lumia */
+@media only screen and (min-height: 481px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 5%;
+    padding-top: 0%;
+    margin-bottom: 10%;
+    height: 420px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-height: 600px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    height: 100%;
+  }
+}
+
+/* Phones: S3/S4, Note 2/3, LG Optimus G, Blackberry Z10/Z30, *
+ * IPhone 6, Xperia Z1, Nokia C5/C6/N97/N8, etc.              */
+@media only screen and (min-height: 640px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 12.5%;
+    padding-top: 12.5%;
+  }
+}
+
+/* IPhone 6 plus, LG Optimus LTE, LG Optimus 4X HD */
+@media only screen and (min-height: 720px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+  #content .picture-box .container {
+    margin-top: 15%;
+  }
+}
+
+/* IPad 1/2/Mini */
+@media only screen and (min-height: 768px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 8%;
+    padding-top: 2%;
+  }
+  #content .picture-box .container {
+    margin-top: 15%;
+  }
+}
+
+/* Generic notebooks and bigger tablets */
+@media only screen and (min-height: 800px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 3%;
+    padding-top: 5%;
+  }
+}
+@media only screen and (min-height: 850px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 20%;
+    padding-top: 25%;
+  }
+}
+
+/* Notebooks with touch/HiDPI */
+@media only screen and (min-height: 900px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 6%;
+    padding-top: 7%;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-height: 1200px) {
+  #content .picture-box .picture-canvas {
+    padding-bottom: 13%;
+    padding-top: 13%;
+  }
+}
