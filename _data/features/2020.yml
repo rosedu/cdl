@@ -13,3 +13,108 @@
 #   id: unique number
 #
 
+- title: VMChecker V2
+  keywords: Python, CI, WebDev
+  url: https://vmchecker.cs.pub.ro
+  description: "VMChecker este un sistem utilizat în cadrul facultății de Automatică și Calculatoare pentru validarea și corectarea temelor. A doua versiune de VMChecker este o rescriere a sistemului actual menită să fie mai ușor de menținut. A fost testat cu succes la cursul de Programarea Calculatoarelor, la seriile CB/CD. Dacă veți contribui la acest proiect veți observa impactul muncii voastre într-o perioadă scurtă de timp."
+  used-technologies: Python, Django, Docker, Nomad, QEMU-KVM
+  image: assets/images/projects/vmchecker.png
+  mentor: Alex Morega, Alex Tudorică
+  id: 1
+  
+- title: OpenMined
+  keywords: Python, PyTorch, Tensorflow
+  url: https://www.openmined.org/
+  repo: https://github.com/OpenMined
+  description: "Informația este peste tot, iar dacă petrolul era bunul cel mai valoros în epoca industrială, atunci “datele reprezintă noul petrol” pentru epoca digitală. OpenMined este o comunitate open-source axată pe crearea unei lumi mai private facilitând accesul la uneltele necesare pentru a lucra cu algoritmi de învățare automată pe date private.
+
+Organizația are mai multe proiecte, însă 2 dintre cele mai cunoscute sunt: PySyft și PyGrid. PySyft este o bibliotecă utilizată pentru învățare automată axată pe păstrarea confidențialității datelor, iar PyGrid este platforma folosită pentru a interconecta mai multe entități."
+  used-technologies: Python, PyTorch, Tensorflow
+  image: assets/images/projects/openmined.png
+  mentor: George Cristian Muraru, Tudor Cebere
+  id: 2
+
+- title: Tensorflow Filesystem
+  keywords: C++
+  description: "TensorFlow este o bibliotecă open source ce permite efectuarea de calcule și procesări numerice de mare performanță, fiind specializată pe algoritmi de deep learning. O parte majoră din TensorFlow presupune operații cu fișiere, implicit și filesystems (salvarea modelelor, checkpointing, citire de fișiere pentru scopuri multiple), eventual de pe filesystem-uri diferite. Tensorflow compilează 5 tipuri de filesystems momentan, dar nu sunt neapărat necesare toate. Avem un tool[0] pentru a modulariza acest aspect care este în dezvoltare. Starea curentă o găsiți aici[1]. Proiectul de la CDL presupune convertirea unui filesystem GCS[2], Hadoop[3] sau S3[4] la noul design, bazat pe pluginuri."
+  used-technologies: C++
+  extra-link0: https://github.com/tensorflow/community/blob/master/rfcs/20190506-filesystem-plugin-modular-tensorflow.md
+  extra-link1: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/c/experimental/filesystem
+  extra-link2: https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/platform/cloud/gcs_file_system.h
+  extra-link3: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/core/platform/hadoop
+  extra-link4: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/core/platform/s3
+  image: assets/images/projects/tensorflow.png
+  mentor: Mihai Maruseac
+  id: 3
+
+- title: TensorFlow Good First Issues
+  keywords: C++, Python
+  description: "TensorFlow este o bibliotecă open source ce permite efectuarea de calcule și procesări numerice de mare performanță, fiind specializată pe algoritmi de deep learning. În cadrul proiectului vom lucra la 2-3 issues de aici[0], în funcție de interesul studenților și apoi avansăm în funcție de cum evoluează proiectul."
+  used-technologies: C++, Python
+  extra-link0: https://github.com/tensorflow/tensorflow/labels/good\%20first\%20issue
+  image: assets/images/projects/tensorflow.png
+  mentor: Mihai Maruseac
+  id: 4
+
+- title: WiFi Cracking
+  keywords:  Linux, security
+  description: "Proiectul constă în automatizarea unui proces de bruteforcing a unor parole de wifi. Un utilizator capturează metadate de la un wifi, le încarcă pe interfața web și obține ulterior parola de la wifi.
+
+Proiectul are două componente:
+Un backend de web scris în python + flask prin intermediul căruia se desfășoară toată interacțiunea dintre bruteforcer și utilizatori. Interacțiunea propriu-zisă se face prin mai multe pagini HTML minimaliste obținute cu un template engine.
+
+A doua componentă a proiectului constă în mai mulți clienți care preiau informații de la backend și folosindu-se de programe externe proiectului încearcă să obțină parola de la un wifi. Acești clienți sunt scriși tot în python.
+
+Există deja o versiune funcțională cu un website live, proiectul va consta în adăugare
+de funcționalități la proiect."
+  used-technologies:  Linux, security
+  image: assets/images/projects/wifi_cracking.svg
+  mentor: Radu Nicolau
+  id: 5
+
+- title: WoUSO
+  keywords: React, NodeJS, MySQL
+  url: https://wouso.cs.pub.ro
+  description: "Început în anul 2007, World of USO este un proiect cu tradiție în Facultatea de Automatică și Calculatoare a Universității POLITEHNICA din București. Acesta reprezintă o platformă de jocuri de tip quiz utilizată cu scop educațional și recreațional de către studenții din anul I care urmează cursul Utilizarea Sistemelor de Operare (USO).
+
+Recent rescrisă, WoUSO este astăzi o aplicație web progresivă (PWA), full stack JavaScript, construită pe baza unui nucleu (core) capabil să accepte module externe. Diferitele moduri de joc (Question of the Day, Weekly Quest, Grand Quest, Challenge) sunt create și integrate sub forma unor astfel de module.
+
+Contribuind la proiectul WoUSO, veți ajunge să stăpâniți tehnologii și framework-uri moderne, în timp ce îmbunătățiți experiența de joc pentru sute de studenți care iau parte anual în competiție. WoUSO are o amprentă de cod relativ redusă ceea ce permite familiarizarea ușoară cu elementele componente ale proiectului și tranziționarea rapidă către etapa de dezvoltare efectivă. În plus, aveți libertatea de a alege direcția în care doriți să mergeți pe perioada cursului: adăugare de funcționalitate nouă, remediere bug-uri, tuning performanță, documentație sau testare și deployment automate."
+  used-technologies: React, NodeJS, MySQL
+  image: assets/images/projects/wouso_2018.svg
+  mentor: Horia Paul Ion
+  id: 6
+
+- title: Wyliodrin
+  keywords: Javascript, Typescript
+  url: https://wyliodrin.com
+  description: "Wyliodrin STUDIO este un mediu de prototipare rapidă a sistemelor de tip IoT. Este un IDE open source care permite userilor să creeze proiecte IoT cu ajutorul programării remote, cu deploy și control pe mai multe dispozitive simultan.
+Fără vreun setup additional, clienții se pot conecta la device-uri, să creeze aplicații și să le încarce pe dispozitivele fizice puse la dispoziție de către noi. Totodată, utilizatorii pot vizualiza datele provenite de la senzori în timp real.
+Wyliodrin STUDIO este dezvoltat folosind tehnologii Web (Node.js, Vue). Scopul acestui proiect este să fie rescrisă aplicația folosind TypeScript, limbaj mai puțin predispus la bug-uri."
+  used-technologies: Wyliodrin Studio, Javascript, Typescript
+  image: assets/images/projects/wyliodrin.png
+  mentor: Ioana Culic
+  id: 7
+
+- title: Haskell Stack
+  keywords: Haskell
+  description: "Haskell Stack are un fișier[0] enorm pentru definirea pachetelor din ecosistem. Există o cerință să modularizăm acest fișier astfel încât fiecare pachet să fie definit independent. De asemenea, vom lucra la issues de aici[1] și de aici[2], în funcție de timpul și interesul studenților."
+  used-technologies: Haskell
+  extra-link0: https://github.com/commercialhaskell/stackage/blob/master/build-constraints.yaml
+  extra-link1: https://github.com/commercialhaskell/stack/labels/newcomer\%20friendly
+  extra-link2: https://github.com/commercialhaskell/stack/labels/help\%20wanted
+  image: assets/images/projects/haskell.png
+  mentor: Mihai Maruseac
+  id: 8
+
+- title: OpenSIPS
+  keywords: C, Python, SQL
+  url: https://opensips.org
+  repo: https://github.com/OpenSIPS/opensips-cli
+  description: "OpenSIPS este un server de rutare a apelurilor telefonice prin Internet (VoIP/Voice over IP). Acest proiect open-source stă la baza rutării a miliarde de apeluri pe zi, fiind capabil să implementeze diverși algoritmi de rutare. Este scris în C pentru a fi cât mai eficient și pentru a asigura o capacitate de rutare cât mai mare.
+
+În cadrul acestui proiect veți dezvolta o interfață de provizionare prin cli (command line) a unei baze de date SQL."
+  used-technologies: C, Python, SQL
+  image: assets/images/projects/opensips.png
+  mentor: Răzvan Crainea
+  id: 9
