@@ -19,7 +19,7 @@
   description: "VMChecker este un sistem utilizat în cadrul facultății de Automatică și Calculatoare pentru validarea și corectarea temelor. A doua versiune de VMChecker este o rescriere a sistemului actual menită să fie mai ușor de menținut. A fost testat cu succes la cursul de Programarea Calculatoarelor, la seriile CB/CD. Dacă veți contribui la acest proiect veți observa impactul muncii voastre într-o perioadă scurtă de timp."
   used-technologies: Python, Django, Docker, Nomad, QEMU-KVM
   image: assets/images/projects/vmchecker.png
-  mentor: Alex Morega, Alex Tudorică
+  mentor: George Cristian Muraru, Mihai Băruță
   id: 1
   
 - title: OpenMined
