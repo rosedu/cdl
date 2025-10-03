@@ -1,0 +1,28 @@
+# Define grid type elements data.
+# Each item has the following structure:
+# - title: string
+#   content: text
+#   extra_info: additional information (text)
+#
+
+- title: "Informații generale"
+  content: "CDL este un curs/laborator alternativ, cu o durată de 9 săptămâni, dedicat tuturor celor interesați de software și open source.
+    Dacă vreți să fiți contributori și membri în comunități, dacă vă interesează să participați la Google Summer of Code, sau dacă pur și simplu doriți să fiți programatori (mai) buni, CDL este pentru voi.
+    Pentru înscriere trebuie să aveți creat un cont GitHub, cu cel puțin două proiecte (oricât de simple, în două limbaje de programare diferite) și să completați formularul de înscriere până <b>miercuri, 8 octombrie 2025, ora 23:00</b>."
+  extra_info: "Cursul este gratuit și accesibil tuturor celor interesați, în limita locurilor disponibile."
+
+- title: "Misiune"
+  content: "CDL își propune să ajute elevii, studenții și în general oricine cu un bagaj inițial de cunoștințe IT&C să facă prima lor contribuție în cadrul unui proiect open source și să-și formeze o impresie legată de ceea ce înseamnă dezvoltarea software în mediul real.
+    Cu ajutorul instructorilor și mentorilor, veți ajunge să realizați contribuții la proiecte open source, să recenzați contribuții, să documentați proiecte, să participați la discuții în comunități, să construiți infrastructura pentru proiecte colaborative, să automatizați fluxuri de lucru în dezvoltare și multe altele."
+  extra_info: "Conținutul și proiectele CDL sunt și vor fi disponibile în public, în spiritul open source, și pot fi folosite de oricine, nu doar de participanți."
+
+- title: "Ateliere"
+  content: "În prima parte a CDL, vom organiza ateliere pe subiecte tehnice.
+    Vom prezenta subiecte precum Git, GitHub, Markdown, Docker, bune practici de inginerie software și veți lucra la exerciții practice pentru a dobândi competențe în lucru la proiecte open source."
+  extra_info: "Workshop-urile vor avea loc <strong>în format fizic</strong> în primele 5 săptămâni, sâmbăta, intervalul 10-13."
+
+- title: "Hackathoane: Contribuții la proiect open source"
+  content: "În a doua parte a CDL, veți lucra la un proiect open source, cu ajutorul unui mentor.
+    Vă veți alege un proiect dintr-o listă și apoi veți lucra la proiect comunicând online cu mentorul și live la hackathon, cot la cot cu toți ceilalți.
+    La finalul celei de-a doua părți, veți avea contribuții (publice) în proiecte open source."
+  extra_info: "Hackathoanele vor avea loc <în ultimele 3 săptămâni, sâmbăta, intervalul 10-13."
