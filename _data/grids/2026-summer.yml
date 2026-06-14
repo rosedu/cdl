@@ -6,7 +6,7 @@
 #
 
 - title: "Informații generale"
-  content: "CDL este un curs/laborator alternativ, cu o durată de 9 săptămâni, dedicat tuturor celor interesați de software și open source.
+  content: "CDL este un curs/laborator alternativ, cu o durată de 9 ședințe (3 săptămâni, marți, joi, sâmbătă), dedicat tuturor celor interesați de software și open source.
     Dacă vreți să fiți contributori și membri în comunități, dacă vă interesează să participați la Google Summer of Code, sau dacă pur și simplu doriți să fiți programatori (mai) buni, CDL este pentru voi.
     Pentru înscriere trebuie să aveți creat un cont GitHub, cu cel puțin două proiecte (oricât de simple, în două limbaje de programare diferite) și să completați formularul de înscriere până <b>sâmbătă, 20 iunie 2026, ora 23:00</b>."
   extra_info: "Cursul este gratuit și accesibil tuturor celor interesați, în limita locurilor disponibile."
@@ -19,10 +19,10 @@
 - title: "Ateliere"
   content: "În prima parte a CDL, vom organiza ateliere pe subiecte tehnice.
     Vom prezenta subiecte precum Git, GitHub, Markdown, Docker, bune practici de inginerie software și veți lucra la exerciții practice pentru a dobândi competențe în lucru la proiecte open source."
-  extra_info: "Workshop-urile vor avea loc <strong>în format fizic</strong> în primele 5 săptămâni, sâmbăta, intervalul 10-13."
+  extra_info: "Workshop-urile vor avea loc <strong>în format fizic</strong> în primele 5 ședințe."
 
 - title: "Hackathoane: Contribuții la proiect open source"
   content: "În a doua parte a CDL, veți lucra la un proiect open source, cu ajutorul unui mentor.
     Vă veți alege un proiect dintr-o listă și apoi veți lucra la proiect comunicând online cu mentorul și live la hackathon, cot la cot cu toți ceilalți.
     La finalul celei de-a doua părți, veți avea contribuții (publice) în proiecte open source."
-  extra_info: "Hackathoanele vor avea loc în ultima săptămână."
+  extra_info: "Hackathoanele vor avea loc <strong>în format fizic</strong> în ultimele 4 ședințe."
