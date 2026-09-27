@@ -1,0 +1,10 @@
+# Main menu configurable items.
+#
+- logo: assets/images/cdl_logo_old.png
+  title: CDL
+  section_one_id: about
+  section_one_name: Despre
+  section_two_id: apply
+  section_two_name: înscriere
+  section_three_id: program
+  section_three_name: Program
